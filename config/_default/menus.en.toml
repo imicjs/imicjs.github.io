@@ -1,0 +1,49 @@
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[main]]
+name = "People"
+url = "/categories/people/"
+weight = 3
+
+[[main]]
+name = "Research"
+url = "/categories/research/"
+weight = 4
+
+[[main]]
+name = "Events"
+url = "/categories/events/"
+weight = 5
+
+[[main]]
+name = "News"
+url = "/categories/news/"
+weight = 6
+
+[[main]]
+name = "Opportunities"
+url = "/categories/opportunities/"
+weight = 7
+
+[[footer]]
+name = "About"
+url = "/about/"
+weight = 1
+
+[[footer]]
+name = "Research"
+url = "/categories/research/"
+weight = 2
+
+[[footer]]
+name = "Opportunities"
+url = "/categories/opportunities/"
+weight = 3
