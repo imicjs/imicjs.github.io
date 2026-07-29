@@ -1,7 +1,7 @@
 ---
 title: "Author Resources"
 description: "BIOSTEC 2027 paper templates and presentation-preparation guidance."
-layout: "secondary"
+layout: "biostec"
 menu_parent: "Research"
 eyebrow: "BIOSTEC 2027"
 ---

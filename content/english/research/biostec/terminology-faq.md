@@ -1,7 +1,7 @@
 ---
 title: "Terminology & Frequently Asked Questions"
 description: "Key BIOSTEC submission terms and concise answers to common author questions."
-layout: "secondary"
+layout: "biostec"
 menu_parent: "Research"
 eyebrow: "BIOSTEC 2027"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "BIOSTEC 2027"
 description: "The China conference hub for the 20th International Joint Conference on Biomedical Engineering Systems and Technologies."
-layout: "secondary"
+layout: "biostec"
 menu_parent: "Research"
 eyebrow: "International Conference"
 ---
@@ -21,7 +21,11 @@ BIOSTEC is an international forum for researchers and practitioners working at t
 
 The 2027 edition includes events in Valletta, Malta, from 19–21 February and in Nanjing, China, from 14–16 May. Participants may attend either venue or both. All presentations at the China venue must be delivered in person.
 
-## Conference information
+<header class="conference-directory-header">
+  <p class="conference-kicker">Explore BIOSTEC 2027</p>
+  <h2>Conference information</h2>
+  <p>Essential information for prospective authors, presenters, reviewers, and participants.</p>
+</header>
 
 <div class="conference-card-grid">
   <a class="conference-card" href="./scope/"><strong>Scope & Tracks</strong><span>Explore the five constituent conference areas and their research priorities.</span></a>

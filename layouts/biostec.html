@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <section class="section-sm biostec-page">
+    <div class="container">
+      {{ partial "components/breadcrumb" (dict "Context" . "Class" "mb-8") }}
+
+      {{ if not .IsSection }}
+        <a class="conference-back-button conference-back-button-top" href="{{ "/research/biostec/" | relLangURL }}">
+          <span aria-hidden="true">←</span>
+          Back to BIOSTEC 2027
+        </a>
+      {{ end }}
+
+      <header class="secondary-page-header biostec-page-header">
+        {{ with .Params.eyebrow }}<p class="secondary-eyebrow">{{ . }}</p>{{ end }}
+        <h1 class="h2 mb-4">{{ .Title }}</h1>
+        {{ with .Description }}<p class="text-lg">{{ . }}</p>{{ end }}
+      </header>
+
+      {{ if .Content }}
+        <div class="content secondary-content biostec-content">{{ .Content }}</div>
+      {{ end }}
+
+      {{ if not .IsSection }}
+        <div class="conference-return-panel">
+          <p>Continue exploring the conference programme, submission guidance, and author resources.</p>
+          <a class="conference-back-button" href="{{ "/research/biostec/" | relLangURL }}">
+            <span aria-hidden="true">←</span>
+            Back to BIOSTEC 2027
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
