@@ -4,7 +4,7 @@
 
 /* navbar items */
 .navbar {
-  @apply relative flex flex-wrap items-center justify-between;
+  @apply relative flex flex-wrap items-center justify-between xl:flex-nowrap;
 }
 
 .navbar-brand {
@@ -12,6 +12,12 @@
   image {
     @apply max-h-full max-w-full;
   }
+
+}
+
+.header .navbar-brand img,
+.header .navbar-brand svg {
+  @apply h-auto w-full;
 }
 
 .navbar-nav {
@@ -19,7 +25,7 @@
 }
 
 .nav-link {
-  @apply text-text-dark hover:text-primary dark:text-darkmode-text-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-semibold transition lg:px-2 lg:py-3;
+  @apply text-text-dark hover:text-primary dark:text-darkmode-text-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-semibold transition xl:px-2 xl:py-3;
 }
 
 .nav-link.active {
@@ -35,7 +41,7 @@
 }
 
 .nav-dropdown-list {
-  @apply bg-body dark:bg-darkmode-body border-border dark:border-darkmode-border z-20 min-w-[230px] rounded-lg border p-3 shadow-lg transition-all duration-200 lg:left-1/2 lg:top-full lg:-translate-x-1/2;
+  @apply bg-body dark:bg-darkmode-body border-border dark:border-darkmode-border z-20 min-w-[230px] rounded-lg border p-3 shadow-lg transition-all duration-200 xl:left-1/2 xl:top-full xl:-translate-x-1/2;
 }
 
 .nav-dropdown-item {
