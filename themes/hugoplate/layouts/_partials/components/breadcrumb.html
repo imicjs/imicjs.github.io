@@ -23,8 +23,10 @@
     {{ end }}
   {{ end }}
   <li>
-    <span class="text-primary dark:text-darkmode-primary">
+    <a
+      class="text-primary dark:text-darkmode-primary"
+      href="{{ $context.RelPermalink }}">
       {{ T (printf "%s" (lower $context.Title)) | default $context.Title }}
-    </span>
+    </a>
   </li>
 </ul>
