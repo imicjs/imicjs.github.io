@@ -32,5 +32,6 @@ npm run build
 
 ## Deployment
 
-Pushes to `main` deploy automatically to GitHub Pages. Netlify uses the build
-configuration in `netlify.toml`.
+Pushes to `main` deploy automatically to the IMIC organization website at
+<https://imicjs.github.io/>. Netlify uses the build configuration in
+`netlify.toml`.
