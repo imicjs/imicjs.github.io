@@ -95,6 +95,9 @@ jobs:
           exit 1
         fi
 
+    - name: Prepare Hugo Tailwind executable
+      run: sh scripts/prepare-build.sh
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:

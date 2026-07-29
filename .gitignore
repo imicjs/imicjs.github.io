@@ -27,6 +27,11 @@ hugo_stats.json
 
 # Dependencies
 node_modules/
+.venv/
+.tools/
+_vendor/
+.source-cache/
+.netlify/
 
 # ============================================================================
 # Environment & Configuration

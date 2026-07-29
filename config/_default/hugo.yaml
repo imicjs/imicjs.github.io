@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+title: 'IMIC Lab'
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://imic-lab.netlify.app/'
 
 ############################
 ## LANGUAGE
@@ -53,6 +53,7 @@ imaging:
 timeout: 600000
 taxonomies:
   author: authors
+  category: categories
   tag: tags
   publication_type: publication_types
 markup:
