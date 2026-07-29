@@ -116,6 +116,12 @@ parent = "Research"
 weight = 6
 
 [[main]]
+name = "BIOSTEC 2027 Conference"
+url = "/research/biostec/"
+parent = "Research"
+weight = 7
+
+[[main]]
 name = "Events"
 url = "/events/"
 weight = 5
