@@ -9,7 +9,6 @@ node_modules
 .venv/
 .source-cache/
 builds
-package-lock.json
 public
 resources
 jsconfig.json
