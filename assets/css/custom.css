@@ -57,6 +57,19 @@
   max-width: 1180px;
 }
 
+.biostec-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.15rem;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.biostec-breadcrumb li {
+  white-space: normal;
+}
+
 .biostec-page-header {
   max-width: 900px;
 }
@@ -173,12 +186,14 @@
 }
 
 .conference-subpage-body {
+  min-width: 0;
   padding: clamp(1.5rem, 4vw, 3rem);
   border: 1px solid #d7e4f2;
   border-top: 0;
   border-radius: 0 0 1.25rem 1.25rem;
   background: #fff;
   box-shadow: 0 18px 45px rgba(16, 42, 67, 0.08);
+  overflow-wrap: anywhere;
 }
 
 .conference-subpage-body > h2 {
@@ -193,7 +208,10 @@
 }
 
 .conference-subpage-body table {
+  display: block;
+  width: 100%;
   overflow: hidden;
+  overflow-x: auto;
   border: 1px solid #d7e4f2;
   border-radius: 0.75rem;
 }
@@ -336,13 +354,19 @@
 }
 
 .conference-track-grid {
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
   margin: 1.25rem 0 2rem;
+}
+
+.conference-track {
+  min-width: 0;
 }
 
 .conference-track h3 {
   margin-top: 0;
   color: #0b5dad;
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  overflow-wrap: anywhere;
 }
 
 .conference-callout {
