@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'IMIC Lab'
 # Website URL
-baseURL: 'https://imic-lab.netlify.app/'
+baseURL: 'https://imic-laboratory-nuist.netlify.app/'
 
 ############################
 ## LANGUAGE
