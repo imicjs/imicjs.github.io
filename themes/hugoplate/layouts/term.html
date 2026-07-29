@@ -1,15 +1,55 @@
 {{ define "main" }}
-  {{ partial "page-header" . }}
+  {{ $currentPage := . }}
+  {{ $peopleTerms := slice "Engineering teacher" "Medical teacher" "Graduate student" "International students" "graduate" "collaborator" "part-time teacher" "People" }}
+  {{ $researchTerms := slice "Research" "Research results" "Paper published" }}
+  {{ $eventsTerms := slice "Events" "academic report" }}
+  {{ $menuParent := "" }}
+  {{ if in $peopleTerms .Title }}{{ $menuParent = "People" }}{{ end }}
+  {{ if in $researchTerms .Title }}{{ $menuParent = "Research" }}{{ end }}
+  {{ if in $eventsTerms .Title }}{{ $menuParent = "Events" }}{{ end }}
+  {{ if eq .Title "News" }}{{ $menuParent = "News" }}{{ end }}
+  {{ if eq .Title "Opportunities" }}{{ $menuParent = "Opportunities" }}{{ end }}
 
-
-  <section class="section">
+  <section class="section-sm secondary-page">
     <div class="container">
-      <div class="row justify-center">
-        {{ range .Data.Pages.ByDate.Reverse }}
-          <div class="md:col-6 lg:col-4 mb-14">
-            {{ partial "components/blog-card" . }}
-          </div>
+      {{ partial "components/breadcrumb" (dict "Context" . "Class" "mb-8") }}
+      <div class="row">
+        {{ if $menuParent }}
+          <aside class="lg:col-3 mb-10 lg:mb-0">
+            <nav class="secondary-nav" aria-label="{{ $menuParent }} section navigation">
+              <p class="secondary-nav-title">{{ $menuParent }}</p>
+              <ul>
+                {{ range site.Menus.main }}
+                  {{ if and .HasChildren (eq .Name $menuParent) }}
+                    {{ range .Children }}
+                      {{ $itemURL := .URL | relLangURL }}
+                      {{ $active := eq $currentPage.RelPermalink $itemURL }}
+                      <li>
+                        <a class="secondary-nav-link {{ if $active }}active{{ end }}" href="{{ $itemURL }}">
+                          {{ .Name }}
+                        </a>
+                      </li>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </nav>
+          </aside>
         {{ end }}
+        <div class="{{ if $menuParent }}lg:col-9{{ else }}col-12{{ end }}">
+          <header class="secondary-page-header">
+            {{ if $menuParent }}<p class="secondary-eyebrow">{{ $menuParent }}</p>{{ end }}
+            <h1 class="h2 mb-4">{{ .Title }}</h1>
+            <p class="text-lg">Browse IMIC {{ .Title | lower }} profiles, updates, and resources.</p>
+          </header>
+          <div class="row">
+            {{ range .Data.Pages.ByDate.Reverse }}
+              <div class="md:col-6 {{ if not $menuParent }}lg:col-4{{ end }} mb-10">
+                {{ partial "components/blog-card" . }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
       </div>
     </div>
   </section>

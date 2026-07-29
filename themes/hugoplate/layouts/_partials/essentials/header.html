@@ -37,6 +37,7 @@
         {{ $pageURL:= $currentPage.Permalink | absLangURL }}
         {{ $active := eq $menuURL $pageURL }}
         {{ if .HasChildren }}
+          {{ $ancestorActive := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
           <li class="nav-item nav-dropdown group relative">
             <input
               type="checkbox"
@@ -44,22 +45,19 @@
               class="peer hidden lg:hidden" />
             <label
               for="submenu-{{ .Name | urlize }}"
-              class="nav-link {{ range .Children }}
-                {{ $childURL := .URL | absLangURL }}
-                {{ $active := eq $childURL $pageURL }}
-                {{ if $active }}active{{ end }}
-              {{ end }} inline-flex items-center">
+              aria-haspopup="true"
+              class="nav-link {{ if $ancestorActive }}active{{ end }} inline-flex items-center">
               {{ .Name }}
-              <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
+              <svg class="nav-dropdown-icon h-4 w-4 fill-current" viewBox="0 0 20 20">
                 <path
                   d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
               </svg>
             </label>
             <ul
-              class="nav-dropdown-list hidden peer-checked:block peer-checked:visible peer-checked:opacity-100 lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
+              class="nav-dropdown-list hidden peer-checked:block peer-checked:visible peer-checked:opacity-100 lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100 lg:group-focus-within:visible lg:group-focus-within:opacity-100">
               {{ range .Children }}
                 {{ $childURL := .URL | absLangURL }}
-                {{ $active := eq $childURL $pageURL }}
+                {{ $active := or (eq $childURL $pageURL) ($currentPage.IsMenuCurrent "main" .) }}
                 <li class="nav-dropdown-item">
                   <a
                     class="nav-dropdown-link {{ if $active }}

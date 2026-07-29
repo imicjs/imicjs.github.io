@@ -22,24 +22,36 @@
   @apply text-text-dark hover:text-primary dark:text-darkmode-text-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-semibold transition lg:px-2 lg:py-3;
 }
 
+.nav-link.active {
+  @apply text-primary dark:text-darkmode-primary;
+}
+
 .nav-dropdown {
   @apply mr-0;
 }
 
-.nav-dropdown > svg {
+.nav-dropdown-icon {
   @apply pointer-events-none;
 }
 
 .nav-dropdown-list {
-  @apply bg-body dark:bg-darkmode-body z-10 min-w-[180px] rounded p-4 shadow-sm;
+  @apply bg-body dark:bg-darkmode-body border-border dark:border-darkmode-border z-20 min-w-[230px] rounded-lg border p-3 shadow-lg transition-all duration-200 lg:left-1/2 lg:top-full lg:-translate-x-1/2;
 }
 
 .nav-dropdown-item {
-  @apply [&:not(:last-child)]:mb-2;
+  @apply m-0;
 }
 
 .nav-dropdown-link {
-  @apply text-text-dark hover:text-primary dark:text-darkmode-text dark:hover:text-darkmode-primary block py-1 font-semibold transition;
+  @apply text-text-dark hover:bg-light hover:text-primary dark:text-darkmode-text dark:hover:bg-darkmode-light dark:hover:text-darkmode-primary block rounded-md px-3 py-2 text-left text-sm font-semibold transition;
+}
+
+.nav-dropdown-link.active {
+  @apply bg-light text-primary dark:bg-darkmode-light dark:text-darkmode-primary;
+}
+
+.nav-dropdown .peer:checked ~ .nav-link .nav-dropdown-icon {
+  @apply rotate-180;
 }
 
 /* theme-switcher */

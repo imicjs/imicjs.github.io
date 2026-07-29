@@ -1,7 +1,9 @@
 ---
 title: "About IMIC"
 description: "Mission, clinical partnerships, research capabilities, education, and facilities."
-layout: "about"
+layout: "secondary"
+menu_parent: "About"
+eyebrow: "About"
 image: "/images/imic-campus.jpg"
 ---
 

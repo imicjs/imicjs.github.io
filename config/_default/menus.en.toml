@@ -9,19 +9,133 @@ url = "/about/"
 weight = 2
 
 [[main]]
-name = "People"
-url = "/categories/people/"
+name = "Lab Introduction"
+url = "/about/"
+parent = "About"
+weight = 1
+
+[[main]]
+name = "Mission & Capabilities"
+url = "/about/mission/"
+parent = "About"
+weight = 2
+
+[[main]]
+name = "Lab Logo"
+url = "/about/logo/"
+parent = "About"
 weight = 3
 
 [[main]]
-name = "Research"
-url = "/categories/research/"
+name = "Location"
+url = "/about/location/"
+parent = "About"
 weight = 4
 
 [[main]]
-name = "Events"
-url = "/categories/events/"
+name = "People"
+url = "/people/"
+weight = 3
+
+[[main]]
+name = "People Overview"
+url = "/people/"
+parent = "People"
+weight = 1
+
+[[main]]
+name = "Engineering Faculty"
+url = "/categories/engineering-teacher/"
+parent = "People"
+weight = 2
+
+[[main]]
+name = "Medical Faculty"
+url = "/categories/medical-teacher/"
+parent = "People"
+weight = 3
+
+[[main]]
+name = "Graduate Students"
+url = "/categories/graduate-student/"
+parent = "People"
+weight = 4
+
+[[main]]
+name = "International Students"
+url = "/categories/international-students/"
+parent = "People"
 weight = 5
+
+[[main]]
+name = "Alumni"
+url = "/categories/graduate/"
+parent = "People"
+weight = 6
+
+[[main]]
+name = "Collaborators"
+url = "/categories/collaborator/"
+parent = "People"
+weight = 7
+
+[[main]]
+name = "Research"
+url = "/research/"
+weight = 4
+
+[[main]]
+name = "Research Overview"
+url = "/research/"
+parent = "Research"
+weight = 1
+
+[[main]]
+name = "Research Areas"
+url = "/research/areas/"
+parent = "Research"
+weight = 2
+
+[[main]]
+name = "Research Results"
+url = "/categories/research-results/"
+parent = "Research"
+weight = 3
+
+[[main]]
+name = "Publications"
+url = "/categories/paper-published/"
+parent = "Research"
+weight = 4
+
+[[main]]
+name = "Research Projects"
+url = "/research/projects/"
+parent = "Research"
+weight = 5
+
+[[main]]
+name = "Data & Software"
+url = "/research/resources/"
+parent = "Research"
+weight = 6
+
+[[main]]
+name = "Events"
+url = "/events/"
+weight = 5
+
+[[main]]
+name = "Events Overview"
+url = "/events/"
+parent = "Events"
+weight = 1
+
+[[main]]
+name = "Academic Seminars"
+url = "/categories/academic-report/"
+parent = "Events"
+weight = 2
 
 [[main]]
 name = "News"
@@ -29,9 +143,33 @@ url = "/categories/news/"
 weight = 6
 
 [[main]]
+name = "Latest News"
+url = "/categories/news/"
+parent = "News"
+weight = 1
+
+[[main]]
+name = "Academic Reports"
+url = "/categories/academic-report/"
+parent = "News"
+weight = 2
+
+[[main]]
 name = "Opportunities"
 url = "/categories/opportunities/"
 weight = 7
+
+[[main]]
+name = "Open Positions & Admissions"
+url = "/categories/opportunities/"
+parent = "Opportunities"
+weight = 1
+
+[[main]]
+name = "Join IMIC"
+url = "/opportunities/join/"
+parent = "Opportunities"
+weight = 2
 
 [[footer]]
 name = "About"

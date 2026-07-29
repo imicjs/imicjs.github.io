@@ -48,3 +48,47 @@
   @apply prose-tr:border-border dark:prose-tr:border-darkmode-border;
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] dark:prose-td:text-darkmode-text;
 }
+/* secondary section pages */
+.secondary-nav {
+  @apply border-border bg-light dark:border-darkmode-border dark:bg-darkmode-light overflow-hidden rounded-lg border lg:sticky lg:top-28;
+}
+
+.secondary-nav-title {
+  @apply bg-primary px-5 py-4 text-lg font-semibold text-white dark:bg-darkmode-primary dark:text-dark;
+}
+
+.secondary-nav ul {
+  @apply p-2;
+}
+
+.secondary-nav-link {
+  @apply text-text-dark hover:bg-body hover:text-primary dark:text-darkmode-text-dark dark:hover:bg-darkmode-body dark:hover:text-darkmode-primary block rounded-md px-4 py-3 font-medium transition;
+}
+
+.secondary-nav-link.active {
+  @apply bg-body text-primary shadow-sm dark:bg-darkmode-body dark:text-darkmode-primary;
+}
+
+.secondary-page-header {
+  @apply border-border dark:border-darkmode-border mb-8 border-b pb-7;
+}
+
+.secondary-eyebrow {
+  @apply text-primary dark:text-darkmode-primary mb-2 text-sm font-semibold uppercase tracking-wider;
+}
+
+.secondary-content {
+  @apply max-w-none;
+}
+
+.research-area-grid {
+  @apply mt-8 grid gap-5 md:grid-cols-2;
+}
+
+.research-area-card {
+  @apply border-border bg-light dark:border-darkmode-border dark:bg-darkmode-light rounded-lg border p-6;
+}
+
+.research-area-card h3 {
+  @apply mb-3 text-xl;
+}
