@@ -1,7 +1,11 @@
 <div class="bg-body dark:bg-darkmode-body">
   {{ $image:= .Params.image }}
   {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 aspect-[16/10] w-full rounded-xl object-cover shadow-sm") }}
+    {{ $imageClass := "mb-6 aspect-[16/10] w-full rounded-xl object-cover shadow-sm" }}
+    {{ if in .Params.categories "People" }}
+      {{ $imageClass = "mb-6 aspect-[16/10] w-full rounded-xl bg-white object-scale-down p-3 shadow-sm" }}
+    {{ end }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" $imageClass) }}
   {{ end }}
   <h4 class="mb-3">
     <a href="{{ .RelPermalink }}">
