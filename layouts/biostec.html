@@ -3,24 +3,47 @@
     <div class="container">
       {{ partial "components/breadcrumb" (dict "Context" . "Class" "mb-8") }}
 
-      {{ if not .IsSection }}
-        <a class="conference-back-button conference-back-button-top" href="{{ "/research/biostec/" | relLangURL }}">
-          <span aria-hidden="true">←</span>
-          Back to BIOSTEC 2027
-        </a>
-      {{ end }}
+      {{ if .IsSection }}
+        <header class="secondary-page-header biostec-page-header">
+          {{ with .Params.eyebrow }}<p class="secondary-eyebrow">{{ . }}</p>{{ end }}
+          <h1 class="h2 mb-4">{{ .Title }}</h1>
+          {{ with .Description }}<p class="text-lg">{{ . }}</p>{{ end }}
+        </header>
 
-      <header class="secondary-page-header biostec-page-header">
-        {{ with .Params.eyebrow }}<p class="secondary-eyebrow">{{ . }}</p>{{ end }}
-        <h1 class="h2 mb-4">{{ .Title }}</h1>
-        {{ with .Description }}<p class="text-lg">{{ . }}</p>{{ end }}
-      </header>
+        {{ if .Content }}
+          <div class="content secondary-content biostec-content">{{ .Content }}</div>
+        {{ end }}
+      {{ else }}
+        <header class="conference-subpage-hero">
+          <a class="conference-hero-back" href="{{ "/research/biostec/" | relLangURL }}">
+            <span aria-hidden="true">←</span>
+            BIOSTEC 2027
+          </a>
+          {{ with .Params.eyebrow }}<p class="conference-subpage-eyebrow">{{ . }}</p>{{ end }}
+          <h1>{{ .Title }}</h1>
+          {{ with .Description }}<p class="conference-subpage-description">{{ . }}</p>{{ end }}
+        </header>
 
-      {{ if .Content }}
-        <div class="content secondary-content biostec-content">{{ .Content }}</div>
-      {{ end }}
+        <nav class="conference-section-nav" aria-label="BIOSTEC 2027 conference information">
+          {{ $currentPage := . }}
+          {{ range slice
+            (dict "name" "Scope & Tracks" "url" "/research/biostec/scope/" "slug" "scope")
+            (dict "name" "Important Dates" "url" "/research/biostec/important-dates/" "slug" "important-dates")
+            (dict "name" "Submission & Review" "url" "/research/biostec/submission/" "slug" "submission")
+            (dict "name" "Author Resources" "url" "/research/biostec/author-resources/" "slug" "author-resources")
+            (dict "name" "Generative AI Policy" "url" "/research/biostec/ai-policy/" "slug" "ai-policy")
+            (dict "name" "Terminology & FAQ" "url" "/research/biostec/terminology-faq/" "slug" "terminology-faq")
+            (dict "name" "Registration & Policies" "url" "/research/biostec/registration-policies/" "slug" "registration-policies")
+          }}
+            {{ $url := .url | relLangURL }}
+            <a class="{{ if eq $currentPage.File.ContentBaseName .slug }}active{{ end }}" href="{{ $url }}">{{ .name }}</a>
+          {{ end }}
+        </nav>
 
-      {{ if not .IsSection }}
+        {{ if .Content }}
+          <div class="content secondary-content biostec-content conference-subpage-body">{{ .Content }}</div>
+        {{ end }}
+
         <div class="conference-return-panel">
           <p>Continue exploring the conference programme, submission guidance, and author resources.</p>
           <a class="conference-back-button" href="{{ "/research/biostec/" | relLangURL }}">
