@@ -2,7 +2,9 @@
 title: "Registration, Publication & Policies"
 description: "BIOSTEC 2027 presenter registration, publication conditions, cancellation terms, and student benefits."
 layout: "biostec"
-menu_parent: "Research"
+menu_parent: "Events"
+aliases:
+  - "/research/biostec/registration-policies/"
 eyebrow: "BIOSTEC 2027"
 ---
 

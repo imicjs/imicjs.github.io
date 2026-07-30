@@ -2,7 +2,9 @@
 title: "Important Dates"
 description: "BIOSTEC 2027 submission and author deadlines."
 layout: "biostec"
-menu_parent: "Research"
+menu_parent: "Events"
+aliases:
+  - "/research/biostec/important-dates/"
 eyebrow: "BIOSTEC 2027"
 ---
 

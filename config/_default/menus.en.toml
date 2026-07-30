@@ -116,12 +116,6 @@ parent = "Research"
 weight = 6
 
 [[main]]
-name = "BIOSTEC 2027 Conference"
-url = "/research/biostec/"
-parent = "Research"
-weight = 7
-
-[[main]]
 name = "Events"
 url = "/events/"
 weight = 5
@@ -137,6 +131,12 @@ name = "Academic Seminars"
 url = "/categories/academic-report/"
 parent = "Events"
 weight = 2
+
+[[main]]
+name = "BIOSTEC 2027 Conference"
+url = "/events/biostec/"
+parent = "Events"
+weight = 3
 
 [[main]]
 name = "News"

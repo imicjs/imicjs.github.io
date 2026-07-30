@@ -2,8 +2,10 @@
 title: "BIOSTEC 2027"
 description: "The China conference hub for the 20th International Joint Conference on Biomedical Engineering Systems and Technologies."
 layout: "biostec"
-menu_parent: "Research"
+menu_parent: "Events"
 eyebrow: "International Conference"
+aliases:
+  - "/research/biostec/"
 ---
 
 <section class="conference-hero">
@@ -35,6 +37,11 @@ The 2027 edition includes events in Valletta, Malta, from 19–21 February and i
   <a class="conference-card" href="./ai-policy/"><strong>Generative AI Policy</strong><span>Apply generative AI responsibly and disclose its use transparently.</span></a>
   <a class="conference-card" href="./terminology-faq/"><strong>Terminology & FAQ</strong><span>Clarify submission types, acceptance categories, presentation formats, and PRIMORIS.</span></a>
   <a class="conference-card" href="./registration-policies/"><strong>Registration & Policies</strong><span>Check presenter registration, cancellation, student benefits, and publication conditions.</span></a>
+  <a class="conference-card" href="./conference-venue/"><strong>Conference Venue</strong><span>Find the Nanjing venue address, contact details, and essential hotel information.</span></a>
+  <a class="conference-card" href="./reaching-the-venue/"><strong>Reaching the Venue</strong><span>Plan your journey from Nanjing's airport and principal railway stations.</span></a>
+  <a class="conference-card" href="./reaching-nanjing/"><strong>Reaching Nanjing</strong><span>Review air and rail arrival options before travelling to the city.</span></a>
+  <a class="conference-card" href="./visa-information/"><strong>Visa Information</strong><span>Check entry requirements and prepare supporting documents for travel to China.</span></a>
+  <a class="conference-card" href="./contacts/"><strong>Contacts</strong><span>Contact the BIOSTEC Secretariat or the local Nanjing coordination team.</span></a>
 </div>
 
 ## Why participate?

@@ -2,7 +2,9 @@
 title: "Submission & Peer Review"
 description: "Professional guidance for submitting papers and abstracts to BIOSTEC 2027."
 layout: "biostec"
-menu_parent: "Research"
+menu_parent: "Events"
+aliases:
+  - "/research/biostec/submission/"
 eyebrow: "BIOSTEC 2027"
 ---
 

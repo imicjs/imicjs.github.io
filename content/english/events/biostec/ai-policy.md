@@ -2,7 +2,9 @@
 title: "Responsible Use of Generative AI"
 description: "BIOSTEC guidance on transparent and responsible use of generative AI in scholarly work."
 layout: "biostec"
-menu_parent: "Research"
+menu_parent: "Events"
+aliases:
+  - "/research/biostec/ai-policy/"
 eyebrow: "BIOSTEC 2027"
 ---
 

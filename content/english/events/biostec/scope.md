@@ -2,7 +2,9 @@
 title: "Scope & Conference Tracks"
 description: "The five interdisciplinary research areas represented at BIOSTEC 2027."
 layout: "biostec"
-menu_parent: "Research"
+menu_parent: "Events"
+aliases:
+  - "/research/biostec/scope/"
 eyebrow: "BIOSTEC 2027"
 ---
 

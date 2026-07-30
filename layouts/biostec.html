@@ -15,7 +15,7 @@
         {{ end }}
       {{ else }}
         <header class="conference-subpage-hero">
-          <a class="conference-hero-back" href="{{ "/research/biostec/" | relLangURL }}">
+          <a class="conference-hero-back" href="{{ "/events/biostec/" | relLangURL }}">
             <span aria-hidden="true">←</span>
             BIOSTEC 2027
           </a>
@@ -27,13 +27,18 @@
         <nav class="conference-section-nav" aria-label="BIOSTEC 2027 conference information">
           {{ $currentPage := . }}
           {{ range slice
-            (dict "name" "Scope & Tracks" "url" "/research/biostec/scope/" "slug" "scope")
-            (dict "name" "Important Dates" "url" "/research/biostec/important-dates/" "slug" "important-dates")
-            (dict "name" "Submission & Review" "url" "/research/biostec/submission/" "slug" "submission")
-            (dict "name" "Author Resources" "url" "/research/biostec/author-resources/" "slug" "author-resources")
-            (dict "name" "Generative AI Policy" "url" "/research/biostec/ai-policy/" "slug" "ai-policy")
-            (dict "name" "Terminology & FAQ" "url" "/research/biostec/terminology-faq/" "slug" "terminology-faq")
-            (dict "name" "Registration & Policies" "url" "/research/biostec/registration-policies/" "slug" "registration-policies")
+            (dict "name" "Scope & Tracks" "url" "/events/biostec/scope/" "slug" "scope")
+            (dict "name" "Important Dates" "url" "/events/biostec/important-dates/" "slug" "important-dates")
+            (dict "name" "Submission & Review" "url" "/events/biostec/submission/" "slug" "submission")
+            (dict "name" "Author Resources" "url" "/events/biostec/author-resources/" "slug" "author-resources")
+            (dict "name" "Generative AI Policy" "url" "/events/biostec/ai-policy/" "slug" "ai-policy")
+            (dict "name" "Terminology & FAQ" "url" "/events/biostec/terminology-faq/" "slug" "terminology-faq")
+            (dict "name" "Registration & Policies" "url" "/events/biostec/registration-policies/" "slug" "registration-policies")
+            (dict "name" "Venue" "url" "/events/biostec/conference-venue/" "slug" "conference-venue")
+            (dict "name" "Getting to the Venue" "url" "/events/biostec/reaching-the-venue/" "slug" "reaching-the-venue")
+            (dict "name" "Getting to Nanjing" "url" "/events/biostec/reaching-nanjing/" "slug" "reaching-nanjing")
+            (dict "name" "Visa Information" "url" "/events/biostec/visa-information/" "slug" "visa-information")
+            (dict "name" "Contacts" "url" "/events/biostec/contacts/" "slug" "contacts")
           }}
             {{ $url := .url | relLangURL }}
             <a class="{{ if eq $currentPage.File.ContentBaseName .slug }}active{{ end }}" href="{{ $url }}">{{ .name }}</a>
@@ -46,7 +51,7 @@
 
         <div class="conference-return-panel">
           <p>Continue exploring the conference programme, submission guidance, and author resources.</p>
-          <a class="conference-back-button" href="{{ "/research/biostec/" | relLangURL }}">
+          <a class="conference-back-button" href="{{ "/events/biostec/" | relLangURL }}">
             <span aria-hidden="true">←</span>
             Back to BIOSTEC 2027
           </a>
