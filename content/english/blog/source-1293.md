@@ -26,6 +26,13 @@ The establishment of SEAM will not only promote the exchange of scientific resea
 
 unveiling ceremony
 
+<div class="imic-article-video" style="--video-aspect: 610 / 333">
+  <video controls preload="metadata" playsinline aria-label="China-Europe Institute of Medical Artificial Intelligence was unveiled">
+    <source src="https://imic.nuist.edu.cn/__local/2/07/C1/206721C4AE886F8BD86CF3D6EA9_9398A64E_64411C.mp4?e=.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
 On October 29, 2024, Jiangsu Educational Television reported the establishment of SEAM Research Institute
 
 On the morning of October 29, Professor Hugo Gamboa of the New University of Lisboa in Portugal was invited to give an academic report on "Prospects of Extensive Sino-European International Cooperation in the Field of Biomedical Engineering" at the Jiangsu Key Laboratory of Intelligent Medical Image Computing. Teachers and students of the key laboratory attended the academic report and had a lively discussion with Professor Hugo on the acquisition of various biological signals and wearable biosensing technology.

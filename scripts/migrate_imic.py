@@ -10,7 +10,7 @@ import shutil
 import subprocess
 from bisect import bisect_right
 from pathlib import Path
-from urllib.parse import unquote, urlparse
+from urllib.parse import unquote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 import yaml
@@ -85,11 +85,13 @@ def resolve_source_image(src: str, html_path: Path) -> Path | None:
 
 
 def article_blocks(page: dict, source_id: str) -> tuple[list[dict], dict]:
-    """Insert every source article image into the translated block sequence."""
+    """Insert source article images and videos into the translated block sequence."""
     html_path = RAW / page["source_path"]
     soup = BeautifulSoup(html_path.read_bytes(), "html.parser")
     content = soup.select_one(".v_news_content") or soup.select_one("#vsb_content")
-    text_blocks = [block for block in page["blocks"] if block["type"] != "image"]
+    text_blocks = [
+        block for block in page["blocks"] if block["type"] not in {"image", "video"}
+    ]
     if content is None:
         return text_blocks, {"source_id": source_id, "source_images": 0, "localized_images": 0}
 
@@ -106,7 +108,7 @@ def article_blocks(page: dict, source_id: str) -> tuple[list[dict], dict]:
         cursor = start + len(needle)
         text_ends.append(cursor)
 
-    image_events = []
+    media_events = []
     text_offset = 0
     for node in content.descendants:
         if (
@@ -116,16 +118,53 @@ def article_blocks(page: dict, source_id: str) -> tuple[list[dict], dict]:
         ):
             text_offset += len(normalized_text(str(node)))
             continue
-        if getattr(node, "name", None) != "img":
+        node_name = getattr(node, "name", None)
+        if node_name == "script" and node.get("name") == "_videourl":
+            video_src = node.get("vurl")
+            if video_src:
+                media_events.append(
+                    (
+                        text_offset,
+                        {
+                            "type": "video",
+                            "src": urljoin(page["source_url"], video_src),
+                            "width": int(node.get("vwidth") or 16),
+                            "height": int(node.get("vheight") or 9),
+                            "original_src": video_src,
+                        },
+                    )
+                )
+            continue
+        if node_name != "img":
             continue
         original_src = node.get("orisrc") or node.get("src") or node.get("data-src")
         if not original_src:
             continue
         source_file = resolve_source_image(original_src, html_path)
         if source_file is None:
-            image_events.append((text_offset, None, original_src, node.get("alt", "")))
+            media_events.append(
+                (
+                    text_offset,
+                    {
+                        "type": "image",
+                        "source_file": None,
+                        "original_src": original_src,
+                        "alt": node.get("alt", ""),
+                    },
+                )
+            )
             continue
-        image_events.append((text_offset, source_file, original_src, node.get("alt", "")))
+        media_events.append(
+            (
+                text_offset,
+                {
+                    "type": "image",
+                    "source_file": source_file,
+                    "original_src": original_src,
+                    "alt": node.get("alt", ""),
+                },
+            )
+        )
 
     target_dir = ARTICLE_IMAGES / f"source-{source_id}"
     if target_dir.exists():
@@ -135,19 +174,26 @@ def article_blocks(page: dict, source_id: str) -> tuple[list[dict], dict]:
     buckets: list[list[dict]] = [[] for _ in range(len(text_blocks) + 1)]
     missing_images = []
     localized = 0
-    for position, source_file, original_src, alt in image_events:
+    source_videos = 0
+    for position, media in media_events:
+        insertion_index = bisect_right(text_ends, position)
+        if media["type"] == "video":
+            source_videos += 1
+            buckets[insertion_index].append(media)
+            continue
+        source_file = media["source_file"]
+        original_src = media["original_src"]
         if source_file is None:
             missing_images.append(original_src)
             continue
         localized += 1
         target = target_dir / f"{localized:02d}.webp"
         write_article_image(source_file, target)
-        insertion_index = bisect_right(text_ends, position)
         buckets[insertion_index].append(
             {
                 "type": "image",
                 "src": f"/images/articles/source-{source_id}/{target.name}",
-                "alt_zh": alt or page["title_zh"],
+                "alt_zh": media["alt"] or page["title_zh"],
                 "original_src": original_src,
             }
         )
@@ -160,8 +206,10 @@ def article_blocks(page: dict, source_id: str) -> tuple[list[dict], dict]:
     return repaired, {
         "source_id": source_id,
         "source_path": page["source_path"],
-        "source_images": len(image_events),
+        "source_images": sum(media["type"] == "image" for _, media in media_events),
         "localized_images": localized,
+        "source_videos": source_videos,
+        "embedded_videos": source_videos,
         "missing_images": missing_images,
         "unmatched_text_blocks": unmatched_text_blocks,
     }
@@ -344,6 +392,23 @@ def main():
         for block in page["blocks"]:
             if block["type"] == "image":
                 body.extend([f"![{page['title_en']}]({block['src']})", ""])
+            elif block["type"] == "video":
+                ratio = f"{block['width']} / {block['height']}"
+                body.extend(
+                    [
+                        (
+                            '<div class="imic-article-video" '
+                            f'style="--video-aspect: {ratio}">\n'
+                            '  <video controls preload="metadata" playsinline '
+                            f'aria-label="{page["title_en"]}">\n'
+                            f'    <source src="{block["src"]}" type="video/mp4">\n'
+                            "    Your browser does not support HTML5 video.\n"
+                            "  </video>\n"
+                            "</div>"
+                        ),
+                        "",
+                    ]
+                )
             elif block.get("text_en"):
                 body.extend([block["text_en"], ""])
         body.extend(
@@ -381,6 +446,8 @@ def main():
                 "article_image_pages": sum(item["source_images"] > 0 for item in audit),
                 "source_images": sum(item["source_images"] for item in audit),
                 "localized_images": sum(item["localized_images"] for item in audit),
+                "source_videos": sum(item.get("source_videos", 0) for item in audit),
+                "embedded_videos": sum(item.get("embedded_videos", 0) for item in audit),
                 "missing_images": sum(len(item.get("missing_images", [])) for item in audit),
                 "unmatched_text_blocks": sum(item["unmatched_text_blocks"] for item in audit),
             },
