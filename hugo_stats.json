@@ -52,7 +52,8 @@
       "thead",
       "title",
       "tr",
-      "ul"
+      "ul",
+      "video"
     ],
     "classes": [
       "-translate-x-1/2",
@@ -164,6 +165,7 @@
       "img",
       "img-dark",
       "img-light",
+      "imic-article-video",
       "inlin-block",
       "inline-block",
       "inline-flex",
