@@ -40,7 +40,10 @@
           </header>
 
           {{ if .Content }}
-            <div class="content secondary-content">{{ .Content }}</div>
+            <div class="content secondary-content">
+              {{ partial "toc.html" (dict "Class" "secondary" "Collapsed" false "TableOfContents" .TableOfContents) }}
+              {{ .Content }}
+            </div>
           {{ end }}
 
           {{ if gt (len $pages) 0 }}
