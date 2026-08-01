@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1038/1457.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Lin Lihong](/images/articles/source-1457/01.webp)
+
 Educational experience:
 
 Undergraduate: 2014/09-2018/06 Henan University of Science and Technology

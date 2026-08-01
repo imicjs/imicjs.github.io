@@ -32,19 +32,19 @@ Dr. Ming Wenlong, a member of Professor Xu Jun's team, focused on triple-negativ
 
 The approval of the "Smart Disease Diagnosis and Treatment" special project reflects that our school's "Intelligent Medical Image Computing" Key Laboratory has made significant progress in the research field of smart diagnosis and treatment of major diseases for the life and health of our people. These studies will not only help improve the accuracy and efficiency of clinical diagnosis and treatment, but will also bring better quality and more convenient medical services and better health protection to patients.
 
-![The laboratory was approved as a special project for smart diagnosis and treatment of major diseases](https://imic.nuist.edu.cn/__local/8/90/AD/F8D7E27E1A59C0F64EE6760C8E6_21535D30_23D24.png)
+![The laboratory was approved as a special project for smart diagnosis and treatment of major diseases](/images/articles/source-1315/01.webp)
 
 Figure 1: The application direction of this topic in artificial intelligence empowering precise diagnosis and treatment of breast cancer
 
-![The laboratory was approved as a special project for smart diagnosis and treatment of major diseases](https://imic.nuist.edu.cn/__local/4/B5/96/A1E7C0C1AF5FF64B993966956CB_3441D23D_2F649.png)
+![The laboratory was approved as a special project for smart diagnosis and treatment of major diseases](/images/articles/source-1315/02.webp)
 
 Figure 2: Statistical data on the incidence and mortality of breast cancer globally and in my country
 
-![The laboratory was approved as a special project for smart diagnosis and treatment of major diseases](https://imic.nuist.edu.cn/__local/3/57/EC/E575BBA68766B54BD8B82C169EC_223C76C5_5AAE7.png)
+![The laboratory was approved as a special project for smart diagnosis and treatment of major diseases](/images/articles/source-1315/03.webp)
 
 Figure 3: Single-cell morphology and topology maps reveal breast cancer ecosystem diversity
 
-![The laboratory was approved as a special project for smart diagnosis and treatment of major diseases](https://imic.nuist.edu.cn/__local/6/31/1D/24A5E1C1EC7A7077E258A6CA447_78FF5062_B79D9.png)
+![The laboratory was approved as a special project for smart diagnosis and treatment of major diseases](/images/articles/source-1315/04.webp)
 
 Figure 4: Teams from both sides complement each other’s strengths, forming a new synergy between medicine and industry.
 

@@ -24,27 +24,27 @@ Afterwards, everyone visited the Smart Medical Research Institute of Nanjing Uni
 
 Through this exchange, students in our school have a deeper understanding of study and life in foreign universities, and a more specific and clear understanding of how to prepare for postgraduate applications to foreign universities. Finally, Professor Xu Jun led the students to visit and introduce the China Interventional and Multidisciplinary Liver Cancer Alliance (CHANGE) of the Smart Medical Research Institute, the China Liver and Portal Hypertension Alliance (CHESS), and surgical and interventional robots.
 
-![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](https://imic.nuist.edu.cn/__local/9/87/FF/486DD793745AE82573F81181B34_80F6F534_11DD9B.png)
+![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](/images/articles/source-1165/01.webp)
 
 Xu Geyang introduces the main direction of studying informatics at the University of Washington in the United States
 
-![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](https://imic.nuist.edu.cn/__local/0/89/04/10B2A0327E07AECDBEB50E439C8_ADEB90B3_10AB3.jpg)
+![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](/images/articles/source-1165/02.webp)
 
 Pang Yuqi introduces the curriculum of statistics major at the University of Virginia in the United States
 
-![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](https://imic.nuist.edu.cn/__local/B/44/67/BFAD73BF3B7B11A6403C6E51041_16B2E5B2_EFB7.jpg)
+![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](/images/articles/source-1165/03.webp)
 
 Teacher Luo Yuemei introduced the situation of Nanyang Technological University in Singapore and the precautions for applying for graduate students in the school
 
-![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](https://imic.nuist.edu.cn/__local/C/E2/E9/D4288FF98B54D3F5170CDF1DB2F_A8DB4A96_16F7D.jpg)
+![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](/images/articles/source-1165/04.webp)
 
 Teacher Gan Xiao introduces things to note when applying for graduate school in the United States
 
-![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](https://imic.nuist.edu.cn/__local/7/BE/BC/E62E535A8B4988E5FC1FF4F8FED_32CEADF1_20F8A.jpg)
+![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](/images/articles/source-1165/05.webp)
 
 Teacher Li Jin introduced the situation of Oxford University in the UK and the precautions for applying for postgraduate students at the school
 
-![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](https://imic.nuist.edu.cn/__local/F/43/31/3C01BD18C683B9C01B895C5E7CA_EEFE9360_1BFA0.jpg)
+![The School of Artificial Intelligence (College of Future Technology) held a study abroad application exchange meeting](/images/articles/source-1165/06.webp)
 
 Professor Xu Jun introduces the research platforms related to the Smart Medical Research Institute
 

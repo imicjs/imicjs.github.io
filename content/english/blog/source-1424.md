@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1424.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Yuan Mingzhi](https://imic.nuist.edu.cn/__local/C/94/E0/C15C7B49C9A0350683CD6F40C65_9F62D24F_A093D.jpg)
+![Yuan Mingzhi](/images/articles/source-1424/01.webp)
 
 Yuan Mingzhi, Ph.D., is a lecturer at the School of Artificial Intelligence (College of Future Technology), Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. Obtained a bachelor's degree in engineering (communication engineering) from Harbin Institute of Technology in June 2020, and a doctorate in engineering (biomedical engineering) from Fudan University in June 2025. The current main research directions are intelligent drug design, three-dimensional computer vision, etc. In the past three years, he has published 25 papers in top conferences and journals such as ICCV, ECCV, CVPR, ICRA, and BIB, including 17 first authors (including co-authors). He has long served as a reviewer for important journals in the field, TPAMI, TIP, RAL, and Automation Journal.
 

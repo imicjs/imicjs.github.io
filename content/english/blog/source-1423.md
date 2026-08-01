@@ -28,7 +28,7 @@ research methods
 
 In order to cope with the many challenges faced by current multi-modal survival prediction, we proposed the Multimodal Representation Decoupling Network (MurreNet), whose overall architecture is shown in Figure 1. This network is specifically designed to model the complex and profound interactive relationships between pathological images and genomic data, aiming to extract more comprehensive and hierarchical feature representations from multi-modal data to improve the accuracy and robustness of survival predictions. The core concept of MurreNet is to emphasize the decoupled learning of multi-modal representation, paying attention to the shared information between modalities and taking into account the specificity of each modality, thereby maximizing the utilization and optimal integration of information.
 
-![The research results of Liu Mingxin, a doctoral student in the laboratory, were accepted by MICCAI2025, the top conference in the field of medical image computing.](https://imic.nuist.edu.cn/__local/2/E9/51/84FFCDE2A4D59395E8850513EDF_10DBF1DF_5DA94.png)
+![The research results of Liu Mingxin, a doctoral student in the laboratory, were accepted by MICCAI2025, the top conference in the field of medical image computing.](/images/articles/source-1423/01.webp)
 
 Figure 1: The multimodal representation decoupling network (MurreNet) model proposed in this paper includes the following four modules: (a) feature extraction module for pathological and genomic features, (b) multimodal representation decoupling module, (c) modal representation reconstruction module, (d) multimodal representation fusion through deep ensemble orthogonal fusion module, and comprehensive training regularization strategy for cancer prognosis.
 
@@ -46,11 +46,11 @@ We selected six representative cancer types from The Cancer Genome Atlas (TCGA) 
 
 Table 1. Performance of different methods on six public TCGA datasets. “P.” indicates whether to use pathological images, and “G.” indicates whether to use genomic maps. The best and second best results are highlighted in red and blue respectively.
 
-![The research results of Liu Mingxin, a doctoral student in the laboratory, were accepted by MICCAI2025, the top conference in the field of medical image computing.](https://imic.nuist.edu.cn/__local/C/7B/2F/089DAC80AA4F414C9BD9C6DE659_8EE33FEF_3DCD9.png)
+![The research results of Liu Mingxin, a doctoral student in the laboratory, were accepted by MICCAI2025, the top conference in the field of medical image computing.](/images/articles/source-1423/02.webp)
 
 To further verify the actual performance of our model in the survival analysis task, we divided all patients into high-risk and low-risk groups based on the median risk score predicted by the model in six TCGA cancer cohorts. Subsequently, as shown in Figure 2, this article uses the Kaplan-Meier survival curve to visually display the survival status of each group of patients and intuitively depict the time distribution trend of survival events. To assess the statistical significance of survival differences between groups, we used the log-rank test with a p value of 0.05 or less as the significance criterion. As shown in Figure 2, in six cancer types, our proposed MurreNet model all exhibits significant risk stratification capabilities, and its corresponding p-values ​​are all well below 0.05. This result fully proves the robustness and generalization ability of the model in individual prognosis prediction, and further confirms its broad application prospects in clinical risk assessment and precision medicine practice.
 
-![The research results of Liu Mingxin, a doctoral student in the laboratory, were accepted by MICCAI2025, the top conference in the field of medical image computing.](https://imic.nuist.edu.cn/__local/3/EC/2E/0484A65E65E9B30D984E81C3045_13041086_9D0FF.png)
+![The research results of Liu Mingxin, a doctoral student in the laboratory, were accepted by MICCAI2025, the top conference in the field of medical image computing.](/images/articles/source-1423/03.webp)
 
 Figure 2. Kaplan-Meier survival curves of the proposed multimodal representation decoupled network (MurreNet) model on six cancer datasets
 

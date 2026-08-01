@@ -34,25 +34,25 @@ To make robust predictions of confirmation bias in complex retinopathy OCT image
 
 Figure 1 is the algorithm flow chart of this paper, which can be divided into the following steps:
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/C/5E/98/870220E4D1FADF89C4704AF20FC_B4EE7976_72FF.jpg)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/01.webp)
 
 Figure 1 Algorithm flow chart
 
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/02.webp)
+
 First, given a batch of labeled and unlabeled images, pass the labeled images to the prediction module to get .
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/8/D0/BB/59FB76843455033BBE4796DE847_4B248E22_17A.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/03.webp)
 
 Then, the prediction module receives weakly enhanced and strongly enhanced unlabeled images and computes .
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/8/48/F4/EB581DC28C1184A9FE711D41658_BA761A64_167.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/04.webp)
 
 Subsequently, the contrast module utilizes pseudo-labels generated from weakly enhanced images to construct a selection matrix through image-level contrast learning to reduce confirmation bias. By reweighting, clean data is prioritized to obtain a weighted matrix. Use two types of strongly enhanced images to construct a feature matrix and calculate .
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/E/34/6E/C748812C16D5C0BB5CAF3CC7207_0B29CC4E_17B.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/05.webp)
 
 Finally, the above three losses are weighted and combined, and the calculation formula is as follows: .
-
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/5/BF/55/E52150D931B720670C8D2DBF895_60761D2C_3E9.png)
 
 Note: The model has two outputs: logistic values and eigenvalues. The solid line represents the eigenvalue or logical value, and the dotted line represents the logical value after obtaining the predicted score through softmax mapping.
 
@@ -68,7 +68,7 @@ The third dataset, CELL, was derived from a retrospective cohort of adult patien
 
 Figure 2 shows representative images of different lesions from the three datasets.
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/3/02/FD/70AAE21FE4E752475F26C5715FB_7B8DD557_1790A.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/06.webp)
 
 Figure 2 Examples of data set samples used in this paper
 
@@ -694,29 +694,29 @@ Proposed
 
 Figure 3 shows the ROC and PR curves for all compared methods. It can be seen that the proposed method outperforms all other methods involved in the comparison, a finding consistent with the metrics shown in Tables 1-3.
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/B/E0/8B/44DB49BE929FA70A63C1EE1CBD9_CADDDA1A_8675.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/07.webp)
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/1/17/D4/7FCC1CB809193A2406AF8891376_D5143007_7E0B.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/08.webp)
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/7/20/DD/65FFDCF1C13758062FD48BC6077_16143968_7408.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/09.webp)
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/7/A7/52/FE27A438F85D20214AF7BA61FD6_3618A00B_8BE1.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/10.webp)
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/F/F1/93/45B366DD8A8A684D555B23EB165_65B52342_8F37.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/11.webp)
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/6/6B/C4/7F886DE7E4C68B8E0AF394E097C_320575C3_80A4.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/12.webp)
 
 Figure 3 ROC and PR curves comparing experimental results
 
 The confusion matrix of this paper’s method is shown in Figure 4. It is obvious that our method produces high classification accuracy for NORMAL and AMD classes. However, the identification accuracy of DME was slightly lower, which can be attributed to the scarcity of DME samples and the presence of samples with extremely small lesion areas. Despite this, the overall performance of this method is still very good.
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/3/B0/08/1410BC695E12541B3B030A2185B_5E2499B5_3CE1.jpg)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/13.webp)
 
 Figure 4 Confusion matrices of this paper’s algorithm on three data sets
 
 In this paper, the CELL dataset contains 1000 OCT images annotated by 6 human ophthalmologists organized by Kermany et al. This paper compares the results of the proposed method with those of human experts, as shown in Figure 5. To evaluate the robustness of the proposed method, we use different numbers of labeled images (80 and 160) to train our model. Experimental results show that our model can provide performance comparable to human experts. In fact, with only 80 labeled images, our model performed better than two experts (the expert achieved the lowest accuracy of 92.1%). Our model has 160 labeled images, surpassing most human experts. These findings demonstrate the reliability of our method in clinical diagnosis.
 
-![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](https://imic.nuist.edu.cn/__local/C/82/FC/4C5702169BD4181EFB754DF9AD4_17CFA85E_65A8.png)
+![The papers of key laboratory teacher Luo Yuemei and graduate student Li Yuan were accepted by the journal Knowledge-Based Systems](/images/articles/source-1364/14.webp)
 
 Figure 5 Comparison of accuracy between the method proposed in this paper and human experts
 

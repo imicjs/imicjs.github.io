@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1104/1303.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Single-cell morphology and topology maps reveal breast cancer ecosystem diversity](/images/articles/source-1303/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1104/1303.htm).*

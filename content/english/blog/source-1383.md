@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1103/1383.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Professor He Huacheng from Oujiang Laboratory was specially invited to the school to give an academic report](/images/articles/source-1383/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1103/1383.htm).*

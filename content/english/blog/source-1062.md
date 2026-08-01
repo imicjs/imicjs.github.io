@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1062.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Cao Zheng](https://imic.nuist.edu.cn/__local/2/81/F2/BFEC0C0CD6DADC976362F7D2D35_A379069E_4B261.jpg)
+![Cao Zheng](/images/articles/source-1062/01.webp)
 
 Cao Zheng, Ph.D., is currently a lecturer at the School of Artificial Intelligence of Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. Graduated with a PhD from the School of Computer Science and Technology, Zhejiang University in 2024. The research direction is medical artificial intelligence methods driven by domain knowledge, mainly including medical imaging intelligent diagnosis, biological/chemical informatics and AI4Science. He has published more than ten papers in top industry journals and conferences, been cited more than 200 times, and has been authorized more than 40 Chinese invention patents. He has received more than ten commendations from Zhejiang University, including Outstanding Graduate Students, Three/Five Best Graduates, Outstanding Youth League Cadres, and Outstanding Graduate Students. Served as a reviewer for several journals or conferences such as Information Fusion, Briefings in Bioinformatics, Artificial Intelligence Review, Neruocomputing, Scientific Reports, Multimedia Systems, etc.
 

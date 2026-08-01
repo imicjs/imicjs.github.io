@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1038/1090.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Chen Depin](https://imic.nuist.edu.cn/__local/F/67/29/BF631BBAEAC540A082547309FBE_5B04B689_AD852.jpg)
+![Chen Depin](/images/articles/source-1090/01.webp)
 
 education
 

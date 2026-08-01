@@ -18,6 +18,12 @@ translation_status: machine-translated-and-terminology-normalized
 
 The first annual meeting of the Asian Society of Digital Pathology will be held on October 2-4, 2024 at the Sejong University Conference Center in Seoul, South Korea. The theme of this annual meeting is: Unlock the Potential of Digital Pathology and AI. The conference invited pathologists from the United States, Europe, and Asia, university professors engaged in digital pathology and artificial intelligence research, digital pathology engineers, and experts in the field of digital pathology. Xu Jun was invited to attend the conference and gave an academic report titled: Explainable AI in Pathology (Explainable Artificial Intelligence in Pathology), and also chaired the academic report of the Generative AI and LLM in Pathology (Generative AI and Large Language Model in Pathology) branch.
 
+![Xu Jun attended the first annual meeting of the Asian Society of Digital Pathology and gave an academic report](/images/articles/source-1312/01.webp)
+
+![Xu Jun attended the first annual meeting of the Asian Society of Digital Pathology and gave an academic report](/images/articles/source-1312/02.webp)
+
+![Xu Jun attended the first annual meeting of the Asian Society of Digital Pathology and gave an academic report](/images/articles/source-1312/03.webp)
+
 Further reading
 
 Founded in 2024, the Asian Society of Digital Pathology (ASDP) is a non-profit organization dedicated to connecting a renowned expert community of experienced pathologists, pioneering engineers, digital pathology industry collaborators, and technicians and trainees across Asia.

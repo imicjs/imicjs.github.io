@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1110/1063.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Ju Shenghong](https://imic.nuist.edu.cn/__local/1/03/8F/F8460A7C67D0FA9B122C0D82E5A_267A6817_14DA8.jpg)
+![Ju Shenghong](/images/articles/source-1063/01.webp)
 
 Ju Shenghong, Doctor of Medicine, is chief professor, chief physician and doctoral supervisor of Southeast University. He is currently the deputy dean of the School of Medicine of Southeast University and the director of the Imaging Department of the Affiliated Zhongda Hospital. He is a winner of the National Science Fund for Distinguished Young Scholars, a national “****” leading scientific and technological innovation leader, and the head of the “Key Field Innovation Team” of the Ministry of Science and Technology.
 

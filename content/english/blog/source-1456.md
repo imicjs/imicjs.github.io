@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1038/1456.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Yang Jianwei](https://imic.nuist.edu.cn/__local/C/F2/43/ED4AF700C05D198C0493479BF4F_4BD84060_139CC.jpg)
+![Yang Jianwei](/images/articles/source-1456/01.webp)
 
 Educational experience:
 

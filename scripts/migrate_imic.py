@@ -4,19 +4,24 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import shutil
 import subprocess
+from bisect import bisect_right
 from pathlib import Path
 from urllib.parse import unquote, urlparse
+from urllib.request import Request, urlopen
 
 import yaml
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment, NavigableString
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / ".source-cache/imic-raw/imic.nuist.edu.cn"
 POSTS = ROOT / "content/english/blog"
 IMAGES = ROOT / "assets/images/content"
+ARTICLE_IMAGES = ROOT / "assets/images/articles"
+EXTERNAL_CACHE = ROOT / ".source-cache/external-images"
 
 SECTION_NAMES = {
     "news": "News",
@@ -39,8 +44,127 @@ FALLBACKS = {
 
 def local_asset(url: str) -> Path | None:
     path = unquote(urlparse(url).path).lstrip("/")
-    candidate = RAW / path
+    candidates = [RAW / path, ROOT / "assets" / path]
+    return next((candidate for candidate in candidates if candidate.is_file()), None)
+
+
+def normalized_text(value: str) -> str:
+    """Normalize source text so image positions survive rich-text span markup."""
+    return re.sub(r"\s+", "", value or "")
+
+
+def resolve_source_image(src: str, html_path: Path) -> Path | None:
+    """Resolve a source image locally, downloading cross-site legacy assets if needed."""
+    parsed = urlparse(src)
+    if parsed.scheme in {"http", "https"}:
+        candidate = RAW / unquote(parsed.path).lstrip("/")
+        if candidate.is_file():
+            return candidate
+        suffix = Path(parsed.path).suffix.lower() or ".jpg"
+        cache_name = f"{hashlib.sha256(src.encode()).hexdigest()[:16]}{suffix}"
+        cached = EXTERNAL_CACHE / cache_name
+        if not cached.is_file():
+            EXTERNAL_CACHE.mkdir(parents=True, exist_ok=True)
+            try:
+                request = Request(src, headers={"User-Agent": "Mozilla/5.0 IMIC archive repair"})
+                with urlopen(request, timeout=30) as response:
+                    cached.write_bytes(response.read())
+            except Exception:
+                return None
+        return cached
+
+    if src.startswith("/"):
+        candidate = RAW / unquote(src).lstrip("/")
+    else:
+        candidate = (html_path.parent / unquote(src)).resolve()
+    try:
+        candidate.relative_to(RAW.resolve())
+    except ValueError:
+        return None
     return candidate if candidate.is_file() else None
+
+
+def article_blocks(page: dict, source_id: str) -> tuple[list[dict], dict]:
+    """Insert every source article image into the translated block sequence."""
+    html_path = RAW / page["source_path"]
+    soup = BeautifulSoup(html_path.read_bytes(), "html.parser")
+    content = soup.select_one(".v_news_content") or soup.select_one("#vsb_content")
+    text_blocks = [block for block in page["blocks"] if block["type"] != "image"]
+    if content is None:
+        return text_blocks, {"source_id": source_id, "source_images": 0, "localized_images": 0}
+
+    source_text = normalized_text(content.get_text("", strip=False))
+    cursor = 0
+    text_ends = []
+    unmatched_text_blocks = 0
+    for block in text_blocks:
+        needle = normalized_text(block.get("text_zh", ""))
+        start = source_text.find(needle, cursor) if needle else cursor
+        if start < 0:
+            unmatched_text_blocks += 1
+            start = cursor
+        cursor = start + len(needle)
+        text_ends.append(cursor)
+
+    image_events = []
+    text_offset = 0
+    for node in content.descendants:
+        if (
+            isinstance(node, NavigableString)
+            and not isinstance(node, Comment)
+            and getattr(node.parent, "name", None) not in {"style", "script"}
+        ):
+            text_offset += len(normalized_text(str(node)))
+            continue
+        if getattr(node, "name", None) != "img":
+            continue
+        original_src = node.get("orisrc") or node.get("src") or node.get("data-src")
+        if not original_src:
+            continue
+        source_file = resolve_source_image(original_src, html_path)
+        if source_file is None:
+            image_events.append((text_offset, None, original_src, node.get("alt", "")))
+            continue
+        image_events.append((text_offset, source_file, original_src, node.get("alt", "")))
+
+    target_dir = ARTICLE_IMAGES / f"source-{source_id}"
+    if target_dir.exists():
+        shutil.rmtree(target_dir)
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    buckets: list[list[dict]] = [[] for _ in range(len(text_blocks) + 1)]
+    missing_images = []
+    localized = 0
+    for position, source_file, original_src, alt in image_events:
+        if source_file is None:
+            missing_images.append(original_src)
+            continue
+        localized += 1
+        target = target_dir / f"{localized:02d}.webp"
+        write_article_image(source_file, target)
+        insertion_index = bisect_right(text_ends, position)
+        buckets[insertion_index].append(
+            {
+                "type": "image",
+                "src": f"/images/articles/source-{source_id}/{target.name}",
+                "alt_zh": alt or page["title_zh"],
+                "original_src": original_src,
+            }
+        )
+
+    repaired: list[dict] = []
+    for index, text_block in enumerate(text_blocks):
+        repaired.extend(buckets[index])
+        repaired.append(text_block)
+    repaired.extend(buckets[-1])
+    return repaired, {
+        "source_id": source_id,
+        "source_path": page["source_path"],
+        "source_images": len(image_events),
+        "localized_images": localized,
+        "missing_images": missing_images,
+        "unmatched_text_blocks": unmatched_text_blocks,
+    }
 
 
 def recover_listing_images() -> dict[str, Path]:
@@ -123,6 +247,25 @@ def write_thumbnail(source: Path, target: Path):
         raise RuntimeError(f"Unable to process {source}: {result.stderr}")
 
 
+def write_article_image(source: Path, target: Path):
+    """Create a web-ready WebP without enlarging the original source image."""
+    dimensions = subprocess.run(
+        ["sips", "-g", "pixelWidth", str(source)],
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    match = re.search(r"pixelWidth:\s*(\d+)", dimensions.stdout)
+    width = int(match.group(1)) if match else 0
+    command = ["cwebp", "-quiet", "-mt", "-m", "6", "-q", "82"]
+    if width > 1920:
+        command.extend(["-resize", "1920", "0"])
+    command.extend([str(source), "-o", str(target)])
+    result = subprocess.run(command, capture_output=True, text=True)
+    if result.returncode:
+        raise RuntimeError(f"Unable to process article image {source}: {result.stderr}")
+
+
 def section_for(page: dict) -> str:
     if page["category_slug"] == "seminars":
         return "academic-exchange"
@@ -134,6 +277,19 @@ def section_for(page: dict) -> str:
 def main():
     pages = [json.loads(line) for line in (ROOT / "metadata/content.jsonl").read_text().splitlines()]
     recovered = recover_listing_images()
+
+    audit = []
+    for page in pages:
+        source_id = re.search(r"/(\d+)\.htm$", page["source_url"]).group(1)
+        page["blocks"], page_audit = article_blocks(page, source_id)
+        audit.append(page_audit)
+
+    (ROOT / "metadata/content.jsonl").write_text(
+        "\n".join(json.dumps(page, ensure_ascii=False) for page in pages) + "\n"
+    )
+    (ROOT / "metadata/image-audit.json").write_text(
+        json.dumps(audit, ensure_ascii=False, indent=2) + "\n"
+    )
 
     POSTS.mkdir(parents=True, exist_ok=True)
     for old in POSTS.glob("post-*.md"):
@@ -219,6 +375,18 @@ def main():
     for item in manifest:
         counts[item["thumbnail_origin"]] = counts.get(item["thumbnail_origin"], 0) + 1
     print(json.dumps({"pages": len(pages), "thumbnail_sources": counts}, indent=2))
+    print(
+        json.dumps(
+            {
+                "article_image_pages": sum(item["source_images"] > 0 for item in audit),
+                "source_images": sum(item["source_images"] for item in audit),
+                "localized_images": sum(item["localized_images"] for item in audit),
+                "missing_images": sum(len(item.get("missing_images", [])) for item in audit),
+                "unmatched_text_blocks": sum(item["unmatched_text_blocks"] for item in audit),
+            },
+            indent=2,
+        )
+    )
 
 
 if __name__ == "__main__":

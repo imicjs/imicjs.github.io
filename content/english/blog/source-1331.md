@@ -28,6 +28,8 @@ Tencent conference number: 755-792-886 (online)
 
 Host: Professor Xu Jun
 
+![Researcher Wu Min from the Singapore Agency for Science, Technology and Research came to the school to give an academic report](/images/articles/source-1331/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1103/1331.htm).*

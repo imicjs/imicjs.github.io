@@ -28,6 +28,8 @@ Koushare live broadcast: https://www.koushare.com/lives/room/092658
 
 Host: Xu Jun Nanjing University of Information Science & Technology
 
+![Professor Tong Shilu from the Institute of Environment of the Chinese Center for Disease Control came to the school to give an academic report](/images/articles/source-1332/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1103/1332.htm).*

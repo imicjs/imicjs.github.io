@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1035/1057.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Gan Xiao](/images/articles/source-1057/01.webp)
+
 Gan Xiao, Ph.D., is a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Intelligent Medical Research Institute. He graduated from the Science Intensive Department of Kuang Yaming College of Nanjing University, and later obtained a doctorate in physics from Pennsylvania State University in the United States. After graduation, he worked as a postdoctoral researcher at Northeastern University and Pennsylvania State University in the United States. He studied under Professor Albert-László Barabási and Professor Réka Albert, the founders of network science, and Professor Sarah M. Assmann, the former president of the American Society of Plant Biologists. He engaged in interdisciplinary research on network science and biomedicine. He has published many papers in high-level journals such as PNAS, and has been cited by Google Scholar more than 500 times. The current research directions are network medicine theory and modeling biological signal transduction network.
 
 For more information, please visit my personal homepage: https://faculty.nuist.edu.cn/ganxiao/zh_CN/index.htm

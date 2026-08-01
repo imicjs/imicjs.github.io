@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1039/1122.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![ABU BAKOR HAYAT ARNOB(Anon)](https://imic.nuist.edu.cn/__local/0/DB/87/94B390C9A1C30E8AFA7FD3AFB21_E0379641_68132.jpg)
+![ABU BAKOR HAYAT ARNOB(Anon)](/images/articles/source-1122/01.webp)
 
 EDUCATION
 

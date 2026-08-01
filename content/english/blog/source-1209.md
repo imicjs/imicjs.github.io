@@ -127,7 +127,7 @@ Mailing address: School of Artificial Intelligence, Nanjing University of Inform
 
 Nanjing University of Information Science & Technology, Personnel Office, School of Artificial Intelligence
 
-![The School of Artificial Intelligence (College of Future Technology) is recruiting outstanding scholars at home and abroad](https://imic.nuist.edu.cn/__local/6/EE/D1/F1723672AB8D91AE70C7AAB51B9_D7070673_11335.jpg)
+![The School of Artificial Intelligence (College of Future Technology) is recruiting outstanding scholars at home and abroad](/images/articles/source-1209/01.webp)
 
 ---
 

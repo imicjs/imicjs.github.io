@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1546.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Li Qiong](https://imic.nuist.edu.cn/__local/6/17/1A/3BC57555951451C32B4A4E45106_6E6DF2B1_8EACDC.jpg)
+![Li Qiong](/images/articles/source-1546/01.webp)
 
 Li Qiong, Ph.D., is a member of the Communist Party of China, a postdoctoral fellow at the School of Artificial Intelligence (College of Future Technology), Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. He received a Bachelor of Engineering in Computer Science and Technology from Shandong Normal University in 2017, a Master of Engineering in Computer Application Technology from Guangxi University in 2020, and a Doctor of Engineering in Computer Application Technology from Beijing Normal University in 2026. During his PhD, he participated in a number of interdisciplinary research projects, focusing on computer vision, pattern recognition and other fields, and has rich experience in experimental design and algorithm development. Current research directions include: computer vision, medical artificial intelligence, and auxiliary diagnosis and treatment.
 

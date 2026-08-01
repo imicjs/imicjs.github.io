@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1104/1306.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Research on standardization of head CT image reconstruction for deep learning-assisted automatic detection](/images/articles/source-1306/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1104/1306.htm).*

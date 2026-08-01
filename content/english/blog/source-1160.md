@@ -20,13 +20,27 @@ On the afternoon of April 12, Deputy Chairman of the Provincial Committee of the
 
 Professor Xu Jun, deputy dean of the School of Artificial Intelligence (College of Future Technology) and executive director of the Smart Medical Research Institute of our school, introduced in detail the construction background, concepts, goals and research fields of the Smart Medical Research Institute. He introduced the development prospects of the Smart Medical Research Institute through industrial background, geographical location, faculty, development opportunities and trends, analyzed the current problems and difficulties, and introduced in detail the research work and related results of the Institute in the construction of interdisciplinary medical and engineering fields, and pointed out the importance and potential clinical value of artificial intelligence technology in empowering the medical field. Immediately afterwards, Xu Jun led the delegation to visit the Smart Medical Research Institute and shared the latest research results being carried out by many institutes, including computational pathology, intelligent analysis of medical images, micron resolution OCT imaging, surgical robots, brain science and neuroimaging, medical big data analysis, and full-stack AI multi-omics solutions.
 
+![Academician Ma Yuqiang, Vice Chairman of the Provincial CPPCC and Chairman of the Provincial Committee for Democratic Progress, and his delegation visited the Smart Medical Research Institute for investigation](/images/articles/source-1160/01.webp)
+
 Xu Jun introduced the development history, technical characteristics and cutting-edge research fields of the Smart Medical Research Institute
+
+![Academician Ma Yuqiang, Vice Chairman of the Provincial CPPCC and Chairman of the Provincial Committee for Democratic Progress, and his delegation visited the Smart Medical Research Institute for investigation](/images/articles/source-1160/02.webp)
 
 Xu Jun introduces the liver CHESS research platform of the Smart Medical Research Institute
 
+![Academician Ma Yuqiang, Vice Chairman of the Provincial CPPCC and Chairman of the Provincial Committee for Democratic Progress, and his delegation visited the Smart Medical Research Institute for investigation](/images/articles/source-1160/03.webp)
+
+![Academician Ma Yuqiang, Vice Chairman of the Provincial CPPCC and Chairman of the Provincial Committee for Democratic Progress, and his delegation visited the Smart Medical Research Institute for investigation](/images/articles/source-1160/04.webp)
+
 Investigate and visit the institute’s surgical robots and related research results
 
+![Academician Ma Yuqiang, Vice Chairman of the Provincial CPPCC and Chairman of the Provincial Committee for Democratic Progress, and his delegation visited the Smart Medical Research Institute for investigation](/images/articles/source-1160/05.webp)
+
 Xu Jun introduced the research institute’s interdisciplinary construction of industry, academia, and medicine, as well as its future development direction.
+
+![Academician Ma Yuqiang, Vice Chairman of the Provincial CPPCC and Chairman of the Provincial Committee for Democratic Progress, and his delegation visited the Smart Medical Research Institute for investigation](/images/articles/source-1160/06.webp)
+
+![Academician Ma Yuqiang, Vice Chairman of the Provincial CPPCC and Chairman of the Provincial Committee for Democratic Progress, and his delegation visited the Smart Medical Research Institute for investigation](/images/articles/source-1160/07.webp)
 
 Xu Jun introduced the background, philosophy, goals and research areas of the Smart Medical Research Institute
 

@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1103/1327.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Professor Hugo Gamboa from the New University of Lisbon in Portugal came to the school to give an academic report](/images/articles/source-1327/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1103/1327.htm).*

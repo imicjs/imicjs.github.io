@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1371.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Hu Danqing](https://imic.nuist.edu.cn/__local/2/17/D0/BF115641051BCB91662CA7F95DE_66E39784_E798E.jpg)
+![Hu Danqing](/images/articles/source-1371/01.webp)
 
 Hu Danqing, Ph.D., is a lecturer at the School of Artificial Intelligence (College of Future Technology), Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. He graduated from Shandong University with an undergraduate degree in 2014, and graduated from Zhejiang University with a master's degree and a doctoral degree in 2017 and 2022 respectively. Research directions include medical artificial intelligence, medical informatics, lung cancer full-process decision support, etc. Currently, he presides over the National Natural Science Youth Fund, and participates in the Beijing Natural Science Foundation Haidian Original Innovation Key Project, the “13th Five-Year Plan” National Key Research Special Precision Medicine Research Project, and the National Natural Science Foundation General Project. Published 17 papers in important medical information journal conferences such as IEEE JBHI, AIM, IJMI, IEEE EMBC, etc., and was the first author of 14 articles. He applied for 11 invention patents, 4 first inventor authorizations, and 4 authorized software copyrights. He won the CHIP2018 Best Paper Award from the Chinese Information Society of China. He has long served as a reviewer for important journals in the field IEEE JBHI, AIM, JMIR, CMPB, ESWA, IJMI, and JBI.
 

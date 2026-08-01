@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1110/1071.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Yuan Yonggui](https://imic.nuist.edu.cn/__local/4/41/D4/F2D860E8FFB86A10213A587F800_75B6A017_73216.png)
+![Yuan Yonggui](/images/articles/source-1071/01.webp)
 
 Yuan Yonggui, MD, chief physician, young distinguished professor, doctoral supervisor, outstanding key medical talent in Jiangsu Province, second-level training target of the fifth phase of Jiangsu Province’s “333 Project”, leader of the psychiatry innovation team of Jiangsu Province’s “Strengthening Health through Science and Education”, director of the Department of Psychology and Psychiatry, Zhongda Hospital Affiliated to Southeast University, member of the International Council of Psychosomatic Medicine (ICPM), and visiting scholar at the Department of Psychiatry at the University of Florida. He has been engaged in research on the clinical diagnosis, treatment and pathogenesis of depression, the clinical diagnosis, treatment and pathogenesis of psychosomatic-related disorders, and the mechanisms of psychological assessment and psychotherapy for nearly thirty years.
 

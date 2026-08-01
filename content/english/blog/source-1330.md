@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1103/1330.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Professor Zhang Fan from the University of Electronic Science and Technology of China came to the school to give a report](/images/articles/source-1330/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1103/1330.htm).*

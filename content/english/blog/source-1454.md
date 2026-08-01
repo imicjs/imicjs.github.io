@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1038/1454.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Wang Rui](https://imic.nuist.edu.cn/__local/6/55/C0/B8A4D4FB110921901849EC2CF6E_9D368F3C_C737B.png)
+![Wang Rui](/images/articles/source-1454/01.webp)
 
 Wang Rui, member of the Communist Party of China, member of the Asia-Pacific Society of Cardiovascular and Interventional Radiology 2025 (APSCVIR 2025)
 

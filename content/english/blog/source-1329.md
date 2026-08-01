@@ -26,6 +26,8 @@ Tencent conference number: 163-807-779 (online)
 
 Host: Xu Jun Nanjing University of Information Science & Technology
 
+![Professor Zhou Shoujun from the Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences came to the school to give an academic report](/images/articles/source-1329/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1103/1329.htm).*

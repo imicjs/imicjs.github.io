@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1140/1359.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Chunyan Xu, Msc](/images/articles/source-1359/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1140/1359.htm).*

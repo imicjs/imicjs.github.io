@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1104/1307.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Research on generation of multi-type time series electronic medical record data based on generative adversarial network](/images/articles/source-1307/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1104/1307.htm).*

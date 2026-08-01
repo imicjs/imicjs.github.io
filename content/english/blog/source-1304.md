@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1104/1304.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Network medicine explains the scientific connotation of clinical efficacy of traditional Chinese medicine](/images/articles/source-1304/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1104/1304.htm).*

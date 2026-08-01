@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1038/1455.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Li Jinze](https://imic.nuist.edu.cn/__local/8/7C/01/F524E50EB7105BC9AFCF2D5B5F5_722EED93_15273.jpg)
+![Li Jinze](/images/articles/source-1455/01.webp)
 
 Educational experience
 

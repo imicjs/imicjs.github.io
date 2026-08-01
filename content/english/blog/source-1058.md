@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1035/1058.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Zeng Xian](/images/articles/source-1058/01.webp)
+
 Zeng Xian, Ph.D., is a lecturer at the School of Artificial Intelligence of Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. He graduated from Huazhong University of Science and Technology with a bachelor's degree in 2016 and a doctorate from Zhejiang University in 2022. The research direction is clinical big data-driven medical clinical intelligent decision-making auxiliary methods, which mainly include congenital heart disease risk warning and prognosis analysis, patient similarity analysis based on electronic medical records, etc. Currently, he has published 6 SCI papers as the first author or co-first author, including JAMIA (IF=7.9), the top journal in the field of medical informatics, and Scientific Data (5-year IF=11.2), the flagship data journal of the Nature series.
 
 For more information, please visit my personal homepage: http://faculty.nuist.edu.cn/cengxian/zh_CN/index.htm

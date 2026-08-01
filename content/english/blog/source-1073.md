@@ -16,9 +16,9 @@ source_url: https://imic.nuist.edu.cn/info/1110/1073.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-Wang Hongxing, Ph.D., chief physician, doctoral supervisor, key young medical talent in Jiangsu Province, "333" young and middle-aged academic leader in Jiangsu Province, director of the Department of Rehabilitation Medicine, Zhongda Hospital Affiliated to Southeast University. Mainly focuses on neuromuscular and bone joint rehabilitation and rehabilitation engineering, and neuroelectrophysiology.
+![Wang Hongxing](/images/articles/source-1073/01.webp)
 
-![Wang Hongxing](https://imic.nuist.edu.cn/__local/B/C5/6C/E64FC05A79F6FF2809772F9AA76_D0E5D935_E1C2.jpg)
+Wang Hongxing, Ph.D., chief physician, doctoral supervisor, key young medical talent in Jiangsu Province, "333" young and middle-aged academic leader in Jiangsu Province, director of the Department of Rehabilitation Medicine, Zhongda Hospital Affiliated to Southeast University. Mainly focuses on neuromuscular and bone joint rehabilitation and rehabilitation engineering, and neuroelectrophysiology.
 
 Hosted and participated in more than 10 national natural science and provincial and municipal level projects, and 1 China-Norway international cooperative education project. He has published 30 SCI papers and Chinese core journals as the first author or corresponding author, and is the chief editor, deputy editor, and co-editor of more than 10 monographs and textbooks. Obtained 1 invention patent and 3 software copyrights as the first author; won the third prize of the Chinese Medical Association Science and Technology Award, the first prize of the Provincial Department of Health’s Medical New Technology Introduction Award, the second prize of the Provincial Medical Science and Technology Award, and the second prize of the National Teaching Achievement Award.
 

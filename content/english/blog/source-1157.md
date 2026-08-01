@@ -22,9 +22,15 @@ Researcher Wu Min’s report mainly introduced some achievements in label-effici
 
 The academic atmosphere was strong during the report period. During the interactive session, participating teachers and students actively asked questions and had extensive and in-depth exchanges with Dr. Wu on the application of time series data in medical data processing, the progress of self-adaptation in the field of time series prediction tasks, the prospects of graph networks in single cell analysis, and optimization of self-supervised algorithms. The academic atmosphere at the venue was strong.
 
+![Researcher Wu Min from the Singapore Agency for Science, Technology and Research was specially invited to the school to give an academic report.](/images/articles/source-1157/01.webp)
+
+![Researcher Wu Min from the Singapore Agency for Science, Technology and Research was specially invited to the school to give an academic report.](/images/articles/source-1157/02.webp)
+
+![Researcher Wu Min from the Singapore Agency for Science, Technology and Research was specially invited to the school to give an academic report.](/images/articles/source-1157/03.webp)
+
 Introduction to Researcher Wu Min
 
-![Researcher Wu Min from the Singapore Agency for Science, Technology and Research was specially invited to the school to give an academic report.](https://imic.nuist.edu.cn/__local/4/74/4D/EE7C0DE861C7C66CE48353D99BC_0EFFDFE1_3CA277.jpg)
+![Researcher Wu Min from the Singapore Agency for Science, Technology and Research was specially invited to the school to give an academic report.](/images/articles/source-1157/04.webp)
 
 Dr. Wu Min is currently a senior research scientist in the machine intelligence department of the Agency for Science, Technology and Research (A*STAR) of Singapore. Research areas include machine learning and data mining of time series data and graph data. degree in computer science from Nanyang Technological University (NTU), Singapore, in 2011 and the bachelor’s degree in computer science from the University of Science and Technology of China (USTC) in 2006, respectively. He has won the best paper award at 2022 IEEE ICIEA, 2022 IEEE SmartCity, 2016 InCoB and 2015 DASFAA, as well as the shortlisted academic paper award at 2020 IEEE PHM, and won the championship of the 2021 CVPR UG2+ Challenge and the 2015 IJCAI competition on repeated buyers prediction respectively.
 

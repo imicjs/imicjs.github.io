@@ -22,7 +22,7 @@ The study is titled "Interpretable Deep Learning Model Based on H&E Stained Sect
 
 This technology is expected to significantly accelerate the clinical diagnosis process, assist doctors in formulating more precise individualized treatment strategies, and provide strong AI support for the precise diagnosis and treatment of endometrial cancer. Although there is still room for improvement in the prediction performance of the current model for rare subtypes such as POLEmut, in the future, the performance can be further improved by expanding training samples, introducing multi-center data and algorithm optimization, pushing this tool towards clinical practicality, and ultimately providing effective support for the precise diagnosis and treatment of endometrial cancer.
 
-![A collaborative paper between IMIC Lab and Fudan University Cancer Hospital was published in the collaborative journal npj Precision Oncology in Nature](https://imic.nuist.edu.cn/__local/5/D9/E0/74236913BB99A293AFF910DD8F0_923A180C_4CF12.jpg)
+![A collaborative paper between IMIC Lab and Fudan University Cancer Hospital was published in the collaborative journal npj Precision Oncology in Nature](/images/articles/source-1493/01.webp)
 
 Figure. Schematic diagram of the model process proposed in this article
 

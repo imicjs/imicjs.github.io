@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1110/1069.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Magen Mountain](https://imic.nuist.edu.cn/__local/E/CF/31/C3E3D4F9CACD341438E64AFBABF_EE54D88E_70E1.jpg)
+![Magen Mountain](/images/articles/source-1069/01.webp)
 
 Ma Genshan, male, doctor of medicine, second-level professor, chief physician, doctoral supervisor, director of the Department of Cardiovascular Medicine, Zhongda Hospital Affiliated to Southeast University, and deputy director of the Institute of Cardiovascular Diseases of Southeast University. He has been engaged in interventional cardiology since 1989. He studied in Australia and is good at the interventional diagnosis and treatment of various cardiovascular diseases. In particular, the interventional treatment technology of coronary heart disease enjoys a high reputation in China. He has independently completed and guided more than 10,000 cases of coronary artery balloon angioplasty and stent surgery, and organized and chaired 19 international academic conferences on coronary heart disease revascularization.
 

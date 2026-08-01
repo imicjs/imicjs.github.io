@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1140/1356.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Lu Haoda](https://imic.nuist.edu.cn/__local/3/75/A2/4784DCC426FBBF0A9AA9F22DBBB_7E5754D3_5A10.jpg)
+![Lu Haoda](/images/articles/source-1356/01.webp)
 
 ---
 

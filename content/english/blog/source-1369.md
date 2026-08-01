@@ -32,17 +32,23 @@ experiment
 
 This study collected 378 hematoxylin and eosin (H&E) stained WSIs from 333 endometrial cancer patients admitted to the Department of Gynecology Oncology, Fudan University Cancer Hospital from 2020 to 2023. This dataset integrates comprehensive clinical annotation, patient clinical data, and 46-gene NGS data.
 
+![The paper collaborated by the key laboratory and the team of Professor Wu Xiaohua from the Department of Gynecology and Oncology of Fudan University Cancer Hospital was accepted by the journal Bioinformatics](/images/articles/source-1369/01.webp)
+
 Figure 1 Experimental process and network structure diagram of this article
 
 We use histograms to distinguish foreground and background areas, and use a tumor segmentation network based on DeepLab v3 to crop and retain image patches in the tumor area, and use selective sampling to divide image patches from the same area into three patches of different scales, which are sent to the parallel UNI for fine-tuning, feature fusion and prediction output respectively. The final WSI-level prediction result is derived from the soft voting of all image patches. Specifically, the WSI-level prediction probability of molecular subtype j can be obtained by the following formula:
 
-![The paper collaborated by the key laboratory and the team of Professor Wu Xiaohua from the Department of Gynecology and Oncology of Fudan University Cancer Hospital was accepted by the journal Bioinformatics](https://imic.nuist.edu.cn/__local/5/D6/C4/7FAEB66EADC62EEAD3397C3C36E_25BC29D8_1560.png)
+![The paper collaborated by the key laboratory and the team of Professor Wu Xiaohua from the Department of Gynecology and Oncology of Fudan University Cancer Hospital was accepted by the journal Bioinformatics](/images/articles/source-1369/02.webp)
 
 Among them, N represents the total number of extracted hierarchical image patches, z i represents the logits output of the network corresponding to image patch i. Softmax ( z i ) j is the Softmax function output probability for subtype j calculated from the logarithm z i . We compare the proposed weakly supervised hi-UNI with current top-performing MIL methods, including recent methods such as TransMIL, DTFD-MIL, and SETMIL, as well as classic MIL methods such as CLAM-SB and Attention-MIL (implemented in im4MEC). In terms of WSI prediction, our proposed method achieved an AUROC of 0.829 (95% CI, 0.816-0.843) on MMRd typing, an AUROC of 0.899 (95% CI, 0.867-0.931) on NSMP, and an AUROC of 0.899 (95% CI) on p53abn. , 0.836-0.962) AUROC, POLE mut reached an AUROC of 0.886 (95% CI, 0.853-0.919), and its ROC curve is as shown in the figure:
+
+![The paper collaborated by the key laboratory and the team of Professor Wu Xiaohua from the Department of Gynecology and Oncology of Fudan University Cancer Hospital was accepted by the journal Bioinformatics](/images/articles/source-1369/03.webp)
 
 Figure 2 ROC curve of the proposed method.
 
 In the five-fold cross-validation experiment, TransMIL using UNI as the feature extractor performed better than other MIL methods, with an AUROC of 0.838 (95% CI: 0.805-0.871). Our proposed method outperformed TransMIL on MMRd, NSMP and POLE mutation subtypes, achieving a macro-average AUROC of 0.879 (95% CI: 0.853-0.904), with slightly lower performance on p53abn classification. The specific results are shown in the figure:
+
+![The paper collaborated by the key laboratory and the team of Professor Wu Xiaohua from the Department of Gynecology and Oncology of Fudan University Cancer Hospital was accepted by the journal Bioinformatics](/images/articles/source-1369/04.webp)
 
 Figure 3 Comparison of experimental results and tSNE characteristic distribution
 

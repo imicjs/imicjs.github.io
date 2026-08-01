@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1039/1123.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![ESSE SANDRINE JECICA(Jessica)](/images/articles/source-1123/01.webp)
+
 EDUCATION
 
 PhD Student, School of Artificial Intelligence, Nanjing University of Information Science & Technology, Nanjing, Jiangsu, PR China

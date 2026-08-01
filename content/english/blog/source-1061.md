@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1061.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Zhou Wei](https://imic.nuist.edu.cn/__local/3/F6/EB/9CE8B1191846ABB49A87E0AF0D5_B76FF843_6EDD28.jpg)
+![Zhou Wei](/images/articles/source-1061/01.webp)
 
 Zhou Wei, Ph.D., is a lecturer at the School of Artificial Intelligence of Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. Obtained a bachelor's degree in engineering (electronic information engineering) from Sichuan University in June 2019, and a doctorate in engineering (biomedical engineering) from Fudan University in June 2024. His supervisor is Professor Chen Wei. During his PhD, he participated in many scientific research projects such as the National Natural Science Foundation of China’s key projects, the Ministry of Science and Technology’s key research and development plan projects, and the Shanghai Municipal Science and Technology Commission’s major projects.
 

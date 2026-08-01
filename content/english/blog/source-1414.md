@@ -36,6 +36,8 @@ In order to fully understand the information of complex retinal disease OCT imag
 
 Figure 1 is the algorithm flow chart of this paper, which can be divided into the following steps:
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/01.webp)
+
 Figure 1: Algorithm flow chart
 
 As shown in Figure 1, we demonstrate the process of completing case classification for OCT case images. Taking AMD, DME and NORMAL as examples, we first cut the images in three different types of OCT data sets into nodes in the Image instantiation part, and then establish connections between each node to form a graph structure. For the construction of the graph structure, we divide the image of size H×W×3 into N blocks and convert them into feature vectors. Finally, we connect each node to obtain the Graph, as shown in step one.
@@ -54,31 +56,51 @@ Table 3 uses the data amounts of 0.8, 0.5, 0.2, 0.1, and 0.05 of the original da
 
 Table 1: Experimental results on BOE data set
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/02.webp)
+
 Table 2: Experimental results on CELL data set
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/03.webp)
+
 Table 3: Experimental results on CELL data sets with different ratios
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/04.webp)
 
 Table 4-5 shows the effect of the PVGCN components. It can be seen from the experimental results that canceling the fully connected layer (FC) and feedforward neural network (FFN) modules and directly using GCN for training will worsen. The lack of FC and FFN will lead to a decrease in feature expression ability. Next, after only introducing FC, the results show that the accuracy has been improved. On this basis, we continue to add the FFN module, and finally get good results. This indicates that these modules play an important role in PVGCN, adding more feature transformations. At the same time, we compared the impact of the improved Vision Graph and pyramid structure on the experimental accuracy. It can be seen from this that the accuracy of the improved vision module compared to the unimproved module increased from 0.9774 to 0.9909. We verified the performance advantage of the pyramid structure on the PVGCN model. PVGCN using the pyramid structure can achieve an accuracy of 0.9954, which is 0.9909 compared to the isotropic PVGCN, which improves the performance. The above experimental data shows that the Vision Graph block and pyramid structure play an important role in improving the accuracy of the model.
 
 Table 4: Comparative effects of different components in graph convolution
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/05.webp)
+
 Table 5: Comparative effects of different components of PVGCN
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/06.webp)
 
 In Table 6, we use only one level of scale, combine the first and second levels of scale, combine the previous three levels of scale, and combine the information of all four scales to conduct experimental verification. The experimental results show obvious performance differences: in terms of accuracy comparison, there is a significant improvement from 0.5638 at one scale to 0.9787 at four scales. Comparative reference indicators such as precision rate, recall rate and F1 score also reflect the trend of significant improvement in performance by combining information at different scales. Table 7 shows the optimized performance indicators on the CELL data set. Compared with the original results, the accuracy, precision and F1 indicators of the model after balanced training will increase slightly, while the recall rate will decrease slightly. The above experimental results show that the class balancing strategy can indeed effectively improve the model's detection ability of minority class samples. The gap in specific experiments is not very large and does not affect the overall performance.
 
 Table 6: Comparative effects at different scales
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/07.webp)
+
 Table 7: Analysis of the impact of the class balancing strategy based on data augmentation on the performance of the PVGCN model on the CELL data set
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/08.webp)
 
 When constructing the graph, the number of neighbors K is used as a hyperparameter to control the aggregation range. Its reasonable value represents the number of adjacent nodes. Different K values have a greater impact on the degree of information exchange. Analyze the impact of the same data on accuracy under different K values. In the specific experiment, K took values of 3, 6, 9 and 12 respectively, and the corresponding experimental results are shown in Table 8. The results show that when the number of neighbor nodes is between 9 and 12, the classification task performs well. In order to balance performance and quality, 9 was selected as the final experimental parameter in the model settings.
 
 Table 8: Impact on accuracy under different k values
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/09.webp)
+
 The confusion matrix of the method in this paper is shown in Figure 2. It is obvious that our method produces high classification accuracy for NORMAL and AMD classes. However, the identification accuracy of DME is slightly lower, which can be attributed to the scarcity of DME samples and the presence of samples with extremely small lesion areas. Nonetheless, the overall performance of our method is excellent.
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/10.webp)
 
 Figure 2: Confusion matrix of this paper’s algorithm on two data sets
 
 In this paper, the CELL dataset contains 1000 OCT images annotated by 6 ophthalmologists organized by Kermany et al. The proposed PVGCN method performs well in tests on the CELL dataset. In Figure 3, the highest accuracy of ophthalmologists can reach 0.997, and the lowest accuracy is about 0.921. The accuracy of the PVGCN method ranks among the top three among ophthalmologists, which can prove that our proposed PVGCN method can reach the level of ophthalmologists.
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/11.webp)
 
 Figure 3: Comparison of accuracy between the method proposed in this paper and ophthalmologists
 
@@ -98,6 +120,8 @@ In order to solve the above problems, this study innovatively proposes the DAGCN
 
 The DAGCN method flow is shown in Figure 4, which is divided into three steps:
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/12.webp)
+
 Figure 4: Overview of cross-domain retinopathy classification method based on DAGCN optical coherence tomography
 
 DAGCN consists of three steps. In step one, we first use source domain data to train the source domain feature extractor and classifier, and guide the training of the source domain feature extractor and classifier through cross-entropy loss and data structure-aware alignment loss, where the data structure-aware alignment loss is calculated by the structure score generated in the source domain data training source domain feature extractor;
@@ -112,19 +136,31 @@ This study verified the performance of DAGCN on three public OCT data sets (BOE 
 
 Table 9: Classification experiment results of each method in different cross-domain scenarios
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/13.webp)
+
 Experiments show that the classification accuracy of DAGCN in three scenarios reaches 92.7%, 96.5% and 99.1% respectively, which is significantly better than benchmark methods such as ResNet-18 and ADDA (as shown in Table 9). In addition, the inference speed of DAGCN is 22%-25% higher than that of the suboptimal method (EM-DDA), and single image processing only takes 4ms, meeting the real-time clinical needs (results are shown in Table 10).
 
 Table 10: Inference time of each method in different cross-domain scenarios
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/14.webp)
+
 Table 11: Ablation experiment results
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/15.webp)
 
 Through ablation experiments (shown in Table 11), this study proved that all the designed modules play a significant role in the cross-domain classification of OCT images.
 
 This study also conducted sensitivity analysis on several important parameters used in the method, and the results are shown in Figure 5. There are 5 important hyperparameters in our method, also called weight balance parameters. Sensitivity analysis shows that the model is insensitive to changes in λ, but it can still slightly improve the performance of the model, while a moderate increase in γ can improve performance, while an excessive increase in γ can lead to performance degradation due to excessive category compression.
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/16.webp)
+
 a, A→B scenario
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/17.webp)
+
 b. In the scenario A→C
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/18.webp)
 
 c, B→C scenario
 
@@ -132,15 +168,23 @@ Figure 5: The impact of hyperparameters and on model performance under different
 
 In addition, through t-SNE feature visualization (shown in Figure 6), it can be seen that DAGCN effectively aligns the data distribution of the source domain and the target domain, and enhances the separability between categories, while the baseline method (without domain adaptation) has obvious inter-domain differences.
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/19.webp)
+
 (a) Baseline: A→B; (b) EM-DDA: A→B; (c) DAGCN: A→B
 
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/20.webp)
+
 (b) Baseline: A→C; (b) EM-DDA: A→C; (c) DAGCN: A→C
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/21.webp)
 
 ( c) Baseline: B→C; (b) EM-DDA: B→C; (c) DAGCN: B→C
 
 Figure 6: Stochastic Neighbor Embedding (t-SNE) visualization of T distribution in cross-domain tasks A→B, A→C, B→C
 
 Compared with ophthalmologists, on data set C, DAGCN's accuracy in the B→C scenario (99.1%) surpassed four ophthalmologists and was the same as the best experts; its accuracy in the A→C scenario (96.5%) was also better than three experts. This result highlights its potential for auxiliary diagnosis.
+
+![Teacher Luo Yuemei guides undergraduate students to publish papers in the journals of the Second District of the Chinese Academy of Sciences](/images/articles/source-1414/22.webp)
 
 Figure 7: Classification accuracy comparison with ophthalmologists
 

@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1035/1052.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Jiao Yiping](/images/articles/source-1052/01.webp)
+
 Jiao Yiping, Ph.D., is currently a lecturer at the School of Artificial Intelligence at Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. He graduated with a master's and doctoral degree from the School of Automation of Southeast University. During his period, he received funding from the China Scholarship Council and went to the Netherlands for a year of joint training with the Computational Pathology Group of Radboud University Medical Center. His main research directions are computational pathology and machine learning. He has rich experience in histopathological full scan slice analysis. He has published six SCI papers as the first author and has authorized one invention patent. Research topics include cancer focus detection and tumor microenvironment analysis in slices of lung cancer, colorectal cancer, breast cancer, and pancreatic cancer, as well as supporting slice quality control, active learning, and staining pattern analysis and other technologies.
 
 For more information, please visit my personal homepage: http://faculty.nuist.edu.cn/jiaoyiping/zh_CN/index.htm

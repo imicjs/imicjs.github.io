@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1103/1374.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Professor Filipe Silva from the University of Lisbon in Portugal was specially invited to our school to give an academic report](/images/articles/source-1374/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1103/1374.htm).*

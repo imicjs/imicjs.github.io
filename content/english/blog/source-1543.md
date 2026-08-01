@@ -60,11 +60,19 @@ Many senior managers of health departments and experts from higher education ins
 
 With the successful conclusion of the training class and academic seminar, this group of "seed students" from all over the world not only gained rich theoretical knowledge of medical AI, but also sowed the seeds of friendship. They will return to their respective countries with what they have learned and think about, promote the implementation of artificial intelligence technology in the local medical system, and inject vigorous digital innovation power into the joint construction of a human health and health community.
 
+![Using intelligence as a bridge to protect life and health | IMIC Lab will undertake the 2026 series of international medical artificial intelligence training courses](/images/articles/source-1543/01.webp)
+
 Professor Xu Jun gave a special lecture on “AI in Healthcare”
+
+![Using intelligence as a bridge to protect life and health | IMIC Lab will undertake the 2026 series of international medical artificial intelligence training courses](/images/articles/source-1543/02.webp)
 
 Professor Liu Hui lectures on the practical course "Biological Signal Acquisition and Machine Learning for Humans"
 
+![Using intelligence as a bridge to protect life and health | IMIC Lab will undertake the 2026 series of international medical artificial intelligence training courses](/images/articles/source-1543/03.webp)
+
 Professor Xu Jun lectures at the International Training Course on Medical Artificial Intelligence for Developing Countries
+
+![Using intelligence as a bridge to protect life and health | IMIC Lab will undertake the 2026 series of international medical artificial intelligence training courses](/images/articles/source-1543/04.webp)
 
 Group photo of the 2026 International Summer School Training Course
 

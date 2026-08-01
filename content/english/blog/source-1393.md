@@ -28,7 +28,7 @@ research methods
 
 This paper proposes a new clustering-enhanced weakly supervised learning framework, which is based on the fusion paradigm of clustering and weakly supervised learning to construct a model for predicting the therapeutic response of Crohn's disease patients to uskinumab. The model is based on panoramic endoscopic biopsy sections of Crohn's disease patients before treatment. In the study, continuous histological sample sections were used for analysis to achieve the task of automatically predicting whether Crohn's disease patients will respond to uskinumab treatment. The model avoids the burden of local area annotation by utilizing feature domain clustering and multi-instance feature fusion mode, and using the patient's panoramic slice level response to uskinumab treatment efficacy as the training label for the weakly supervised learning model.
 
-![The research results of Cai Chengfei, a doctoral student in the Key Laboratory, were accepted by Bioinformatics, a top journal in bioinformatics.](https://imic.nuist.edu.cn/__local/0/BD/73/F825A018BA4050C6BC38B2D9E3D_B271D3D9_B2201.png)
+![The research results of Cai Chengfei, a doctoral student in the Key Laboratory, were accepted by Bioinformatics, a top journal in bioinformatics.](/images/articles/source-1393/01.webp)
 
 Figure 1: is an overview of the research framework of this article. The prediction model framework studied in this article consists of five main parts: (1) preprocessing and standardization of panoramic slices; (2) building an image patch screening model to identify effective image patches for uskinumab treatment response prediction; (3) using selected image patches to develop patch-level uskinumab treatment response prediction models; (4) fusing the predicted image patch results and generating feature representations for each panoramic slice; (5) establishing a panoramic slice-level uskinumab treatment response prediction model.
 
@@ -42,13 +42,13 @@ Experimental results
 
 In the construction of the integrated model based on image patch clustering, this article randomly selected 50 panoramic slice samples, of which 29 samples had panoramic slices that responded to uskinumab treatment, and 21 samples did not have panoramic slices that responded to uskinumab treatment. A total of 329,045 image patches were generated from all samples as the data set for the mean clustering algorithm used in this article. The Calinski-Harabasz index is used to evaluate the optimal number of clusters. The Calinski-Harabasz index is calculated as the ratio of between-cluster variance to within-cluster variance. The higher the Calinski-Harabasz index value, the better the clustering performance, indicating that the clusters are well separated and unique. The clustering results and evaluation are shown in Figure 2.
 
-![The research results of Cai Chengfei, a doctoral student in the Key Laboratory, were accepted by Bioinformatics, a top journal in bioinformatics.](https://imic.nuist.edu.cn/__local/1/84/42/2E2E670FF1DA229B85BB233F1B5_F0873CFB_272C07.png)
+![The research results of Cai Chengfei, a doctoral student in the Key Laboratory, were accepted by Bioinformatics, a top journal in bioinformatics.](/images/articles/source-1393/02.webp)
 
 Figure 2: Results of image patch clustering and selection
 
 After constructing a clustering approach to identify and filter image patches in panoramic slices that are highly correlated with treatment response. This paper builds a block-level treatment response prediction model based on selected image blocks to train, and then uses the extracted pathological features to train a classifier to build a panoramic slice-level treatment response prediction model, so that it can judge the treatment response of uskinumab in patients with Crohn's disease on unlabeled panoramic slice data. The prediction performance of its image block level and panoramic slice level models is shown in Figure 3:
 
-![The research results of Cai Chengfei, a doctoral student in the Key Laboratory, were accepted by Bioinformatics, a top journal in bioinformatics.](https://imic.nuist.edu.cn/__local/C/A5/B7/FB88E78CCD07B0CA9D5A628A391_897C84CC_684D2.png)
+![The research results of Cai Chengfei, a doctoral student in the Key Laboratory, were accepted by Bioinformatics, a top journal in bioinformatics.](/images/articles/source-1393/03.webp)
 
 Figure 3: Evaluation of image patch-level models and panoramic slice-level models. (a) Predicting patch-level Uskinumab responses using the DenseNet121 model. (b) Visualization of the distribution of uskinumab responsive and non-responsive cases in two-dimensional space using t-SNE. (c) AUC values ​​of the prediction results of all classifiers at the panoramic slice level. (d) Confusion matrix of test results of the model in the test set.
 

@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1032/1483.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![The 2025 Academic Annual Conference of the Key Laboratory of Intelligent Medical Image Computing and the MICS Regional Academic Salon were successfully held in our school](https://imic.nuist.edu.cn/__local/4/67/2E/79B6F7A802F620416DD8B21981D_7F916CF4_1765E2.png)
+![The 2025 Academic Annual Conference of the Key Laboratory of Intelligent Medical Image Computing and the MICS Regional Academic Salon were successfully held in our school](/images/articles/source-1483/01.webp)
 
 On November 3, the "2025 Key Laboratory of Intelligent Medical Image Computing Academic Annual Conference and MICS Regional Academic Salon" hosted by Nanjing University of Information Science & Technology and jointly organized by the Jiangsu University Key Laboratory of Intelligent Medical Image Computing (IMIC Lab) and the Medical Image Computing Youth Symposium (MICS) was successfully held in our school. Jin Zikang, member of the Standing Committee of the Party Committee and Vice President of the school, was invited to attend the opening ceremony and deliver a speech. Experts and scholars from the Singapore Agency for Science, Technology and Research, National University of Singapore, Fudan University, Xiamen University, Southeast University, Nanjing University, Nanjing University of Science and Technology, Jiangsu University and other universities and research institutions attended the meeting. The meeting was chaired by Xu Jun, deputy dean of the School of Artificial Intelligence (College of Future Technology).
 
@@ -26,7 +26,7 @@ This conference aims to strengthen exchanges and cooperation between IMIC labora
 
 This conference established a high-level academic exchange platform for domestic and foreign scholars, further enhancing the influence of our school and IMIC laboratory in the field of intelligent medical image computing. In the future, the school will continue to join hands with domestic and foreign research forces, focus on artificial intelligence to empower smart medical care, promote the transformation of scientific research results, and contribute to the construction of "Healthy China".
 
-![The 2025 Academic Annual Conference of the Key Laboratory of Intelligent Medical Image Computing and the MICS Regional Academic Salon were successfully held in our school](https://imic.nuist.edu.cn/__local/9/38/4D/4BDC48B3DCD8D046EB2E76A9AC9_81CEB397_4A510C.png)
+![The 2025 Academic Annual Conference of the Key Laboratory of Intelligent Medical Image Computing and the MICS Regional Academic Salon were successfully held in our school](/images/articles/source-1483/02.webp)
 
 Expert report
 

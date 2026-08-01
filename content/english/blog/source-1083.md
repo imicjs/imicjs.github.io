@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1110/1083.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Qi Xiaolong](https://imic.nuist.edu.cn/__local/8/D1/28/12BC531186FBBD28530814B7F86_BD9DADED_132D46.jpeg)
+![Qi Xiaolong](/images/articles/source-1083/01.webp)
 
 Qi Xiaolong, professor, doctoral supervisor, selected into the National High-Level Talent Program, assistant to the president of Zhongda Hospital Affiliated to Southeast University, director of the Center for Portal Hypertension; founder of CHESS, chairman of the alliance; founder of PH&C, editor-in-chief of the journal; chairman of the Portal Hypertension Alliance of the National Center for Infectious Diseases; Chairman of the Portal Hypertension Professional Committee of the Chinese Association for the Promotion of Human Health Science and Technology; Vice Chairman of the Portal Hypertension Outreach Committee of the American Society for the Study of the Liver.
 

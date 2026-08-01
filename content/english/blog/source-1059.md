@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1059.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Ming Wenlong](https://imic.nuist.edu.cn/__local/0/25/30/03B148EBC679695B284C40FE0A0_445FFB7E_39258E.jpg)
+![Ming Wenlong](/images/articles/source-1059/01.webp)
 
 Ming Wenlong, Ph.D., is a lecturer at the School of Artificial Intelligence of Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. He received his bachelor's degree from Jilin University in July 2016, and was later recommended to study for a master's and doctoral degree in biomedical engineering at Southeast University, and received his doctorate in July 2023. During the doctoral period, from April 2022 to April 2023, as a jointly trained doctoral student, I went to the Medical Image Computing Department of the German National Cancer Research Center (DKFZ) for exchange and study. The supervisor is Professor Dr. Klaus H. Maier-Hein.
 

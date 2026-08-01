@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1039/1121.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![GOMA TSHIVETTA Christian Fersein Jorvialom (Fu Leisen)](https://imic.nuist.edu.cn/__local/D/1A/C9/14B1A514D9DBEE69C7E7742D372_49C0A652_11905.jpg)
+![GOMA TSHIVETTA Christian Fersein Jorvialom (Fu Leisen)](/images/articles/source-1121/01.webp)
 
 EDUCATION
 

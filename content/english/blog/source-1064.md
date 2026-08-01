@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1110/1064.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Shriver](https://imic.nuist.edu.cn/__local/5/87/6C/1B14026CF6A2A5E6589A063B1D7_CBB1CF85_57B104.jpg)
+![Shriver](/images/articles/source-1064/01.webp)
 
 Shi Ruihua, Director of the Department of Gastroenterology, Zhongda Hospital Affiliated to Southeast University, Ph.D., second-level professor, chief physician, postdoctoral and doctoral supervisor, PHD supervisor, MD supervisor, master's supervisor. Studied at Sheffield University in the UK and Virginia Commonwealth University in the US.
 

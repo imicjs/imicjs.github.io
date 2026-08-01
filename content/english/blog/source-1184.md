@@ -28,13 +28,13 @@ The laboratory has hired more than 30 medical experts, including Academician Ten
 
 The laboratory focuses on the following four research areas:
 
-![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](https://imic.nuist.edu.cn/__local/A/A9/39/3CCFD88C72BF74F5F84EA65AA17_04E09E91_2114F.png)
+![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](/images/articles/source-1184/01.webp)
 
-![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](https://imic.nuist.edu.cn/__local/0/0E/59/49F3EE9B1954540D43D94883598_0CD7D289_154A7.png)
+![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](/images/articles/source-1184/02.webp)
 
-![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](https://imic.nuist.edu.cn/__local/B/0E/2E/25B0D0CB01B9FE2D15EA09040E3_C592BD03_1118D.png)
+![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](/images/articles/source-1184/03.webp)
 
-![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](https://imic.nuist.edu.cn/__local/1/6C/E5/353ABA36D7BEBF2AB28C9022137_ADBA33CB_FFCF.png)
+![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](/images/articles/source-1184/04.webp)
 
 Recruitment positions
 
@@ -66,15 +66,15 @@ Contact information of the Personnel Office of Nanjing University of Information
 
 Mailing address: Personnel Office, Nanjing University of Information Science & Technology, No. 219, Ningliu Road, Nanjing, 210044
 
-![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](https://imic.nuist.edu.cn/__local/4/B8/C4/6FD21D1B7BE8927CDF357B10610_3A0F2583_5C5F.png)
+![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](/images/articles/source-1184/05.webp)
 
 Our school talent recruitment website
 
-![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](https://imic.nuist.edu.cn/__local/E/40/10/745FB7F56020140CBE1427668D2_1DDF9E1A_4642.png)
+![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](/images/articles/source-1184/06.webp)
 
 Laboratory WeChat public account
 
-![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](https://imic.nuist.edu.cn/__local/D/8A/55/F6BA5993D045503843406285D45_0D63D6D4_3382.png)
+![Key laboratories are looking for long-term talents at home and abroad to recruit talents from all over the world](/images/articles/source-1184/07.webp)
 
 Laboratory website
 

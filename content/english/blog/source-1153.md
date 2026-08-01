@@ -22,11 +22,11 @@ This academic salon was organized by Chen Jun, Director of the Pathology Departm
 
 Finally, Fan Xiangshan, director of the Pathology Department of Gulou Hospital, summarized the meeting and looked forward to the prospects of cooperation between the two sides' medical industry. The meeting deployed and planned the recent collaborative research between the institute and the Pathology Department of Gulou Hospital. The successful holding of this meeting further deepened the mutual understanding and cooperation between the Smart Medical Research Institute and the Pathology Department of Nanjing Drum Tower Hospital.
 
-![The institute and the Pathology Department of Gulou Hospital held a pathological artificial intelligence academic salon event](https://imic.nuist.edu.cn/__local/8/A9/C5/DDEFCA63E6CBF83DFE4F7746224_4EE3B417_7B83D.jpg)
+![The institute and the Pathology Department of Gulou Hospital held a pathological artificial intelligence academic salon event](/images/articles/source-1153/01.webp)
 
 Director Chen Jun of the Pathology Department of Nanjing Drum Tower Hospital gave an academic report
 
-![The institute and the Pathology Department of Gulou Hospital held a pathological artificial intelligence academic salon event](https://imic.nuist.edu.cn/__local/F/5D/40/7EE7FC493A66816CDF2936E1F47_E4EB927F_339C85.jpg)
+![The institute and the Pathology Department of Gulou Hospital held a pathological artificial intelligence academic salon event](/images/articles/source-1153/02.webp)
 
 "Brainstorming" among medical and engineering experts
 

@@ -22,7 +22,7 @@ The study is titled "MuTriM: A multiscale deep learning model integrating longit
 
 The model was trained in the Fudan University Cancer Hospital cohort (N=335) and externally validated in the TCGA public cohort (N=126). The results showed that the MuTriM model significantly predicted RFS (HR=5.26, C-index=0.75) in the subtype non-specific cohort, and its performance comprehensively surpassed the model based on a single modality. In addition, the MuTriM model showed the potential to guide radiotherapy decisions in the ER+ population: high-risk patients significantly benefited from adjuvant radiotherapy (HR=0.15, P=0.03), while low-risk patients did not see significant benefit (HR=4.06, P=0.53), and the interaction test was significant (P=0.04). Combined with transcriptome analysis, the study further revealed the immune escape and aggressive biological characteristics of high-risk tumors. This model provides strong support for precise risk stratification and personalized treatment decisions for breast cancer.
 
-![The paper of Wang Xiangxue’s research group from the IMIC laboratory was published in the internationally authoritative European Journal of Cancer](https://imic.nuist.edu.cn/__local/A/CB/E3/97A6C04A8D3022AA72A3EC9E7F9_304BE388_6FF10.png)
+![The paper of Wang Xiangxue’s research group from the IMIC laboratory was published in the internationally authoritative European Journal of Cancer](/images/articles/source-1505/01.webp)
 
 Figure 1. Schematic diagram of MuTriM model framework
 

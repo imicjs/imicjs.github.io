@@ -16,6 +16,10 @@ source_url: https://imic.nuist.edu.cn/info/1035/1053.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Zhang Teng](/images/articles/source-1053/01.webp)
+
+![Zhang Teng](/images/articles/source-1053/02.webp)
+
 Zhang Teng, Ph.D., is a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Intelligent Medical Research Institute. He graduated from Zhejiang University with a bachelor's degree in 2010, a master's degree in electrical engineering from Zhejiang University in 2013, and a doctorate in imaging and interventional radiology from the Chinese University of Hong Kong in 2018. From 2018 to 2021, he engaged in postdoctoral research at Zhejiang University, and was awarded the 2018 Postdoctoral International Exchange Program Introduction Project. From December 2021, he will be a full-time teacher at the School of Artificial Intelligence, Nanjing University of Information Science & Technology. Now he is mainly engaged in research in the fields of medical image analysis, pattern recognition and other fields. In recent years, he has published 5 SCI papers as the first author and co-first author in top journals such as NeuroImage and European Journal of Nuclear Medicine & Molecular Imaging, and serves as a reviewer for journals such as European Radiology.
 
 For more information, please visit my personal homepage: http://faculty.nuist.edu.cn/zhangteng/zh_CN/index.htm

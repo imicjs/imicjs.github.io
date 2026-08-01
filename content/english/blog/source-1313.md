@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1104/1313.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Diagnosis of atrial fibrillation and ventricular fibrillation based on multi-angle dual-channel fusion network and electrocardiogram](/images/articles/source-1313/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1104/1313.htm).*

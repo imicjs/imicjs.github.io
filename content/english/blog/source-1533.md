@@ -28,7 +28,7 @@ The method was systematically validated on two TCGA large-scale cohorts of breas
 
 This research achieves efficient few-shot transfer learning capabilities for WSI without the need for additional task fine-tuning, and significantly improves the modeling capabilities of multi-modal pathological AI models for complex biomedical information. Relevant results provide a new theoretical framework and method path for full-modal computational pathology learning, and also provide an important reference for the application of cross-modal collaborative modeling in medical artificial intelligence. In the future, this method is expected to be further expanded to scenarios such as cross-center data fusion, weakly supervised pathological diagnosis, and multi-omics integrated analysis, providing more reliable technical support for precision medicine and intelligent diagnosis.
 
-![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](https://imic.nuist.edu.cn/__local/C/4F/3B/6AB0F640A3F5685A36CAFE50202_42EA6C8B_90692.png)
+![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](/images/articles/source-1533/01.webp)
 
 Figure 1. Schematic diagram of the framework of the full-modal slice representation learning method based on collaborative information decoupling proposed in this article
 
@@ -42,7 +42,7 @@ Recently, the paper "Automatic Identification of Retinopathy from Optical Cohere
 
 This study focuses on issues such as the high cost of annotating clinical OCT images, the scarcity of professional annotated samples, and the vulnerability of traditional semi-supervised methods to low-quality pseudo-labels. It proposes a semi-supervised retinopathy recognition method that simultaneously integrates semantic-level and instance-level consistency. The model (shown in Figure 2) uses pre-trained Vision Transformer (ViT) as the backbone network: for labeled OCT images, supervised learning is completed through weakly enhanced samples and real labels; for unlabeled images, weakly enhanced and strongly enhanced views are constructed, pseudo labels are generated and filtered at the semantic prediction level, and instance similarities are calculated in the feature space. Furthermore, this method uses expansion and aggregation operations to calibrate and interactively update semantic pseudo-labels and instance pseudo-labels, and jointly optimizes supervised loss, semantic-level unsupervised loss, and instance-level consistency loss, thereby improving the reliability of pseudo-labels and the classification robustness of the model under very few labeling conditions.
 
-![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](https://imic.nuist.edu.cn/__local/0/B9/54/90CA8694547728FEE4A54816EFD_9D1B4652_35996.png)
+![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](/images/articles/source-1533/02.webp)
 
 Figure 2. Schematic diagram of the semi-supervised OCT classification framework based on similarity matching proposed in this article
 
@@ -60,7 +60,7 @@ Recently, the research paper "D²-Former: Mixture-Of-Experts Guided Dual Transfo
 
 Medical image segmentation is a key task in computer-aided diagnosis and treatment planning. However, real clinical images often have problems such as blurred boundaries, large scale changes, and complex tissue morphology, making it difficult for the model to simultaneously take into account global semantic understanding and local detail recovery. In multi-modal, multi-structure and multi-scale scenarios, existing methods still face challenges such as insufficient adaptive feature fusion, insufficient fine-grained boundary characterization, and insufficient generalization capabilities. In response to the above problems, the research team proposed the D²-Former medical image segmentation framework (shown in Figure 3). This method uses a dual encoder-decoder structure to combine Swin Transformer with the DINOv3 basic model to extract hierarchical structural features and high-quality semantic representation respectively. At the same time, the model introduces the Softer Mixture-of-Experts (Softer-MoE) mechanism in Swin Transformer, which enables the network to adaptively refine features based on input content to better handle complex anatomical structures and fuzzy boundaries. In terms of feature fusion, the study designed the Spatial-Frequency Gated Channel Attention (SF-GCA) module to fuse the complementary information of the two coding branches through spatial alignment and gated attention mechanisms. Subsequently, the model uses Residual Attention Decoder (RAD) to gradually restore high-resolution segmentation results, and combines spatial and channel attention and deep supervision strategies to further improve boundary reconstruction capabilities and multi-scale prediction stability.
 
-![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](https://imic.nuist.edu.cn/__local/2/6F/3B/05AC05F1FA0C4E240C65C3FB292_1270E349_6E8CB.png)
+![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](/images/articles/source-1533/03.webp)
 
 Figure 3. Schematic diagram of the D²-Former multi-scale medical image segmentation framework proposed in this article
 
@@ -82,11 +82,11 @@ The method was systematically validated on five cancer cohorts from the TCGA dat
 
 This study establishes a new paradigm for multimodal cancer survival prediction under technical noise conditions by explicitly modeling the importance-uncertainty asymmetry between WSI and mRNA, improving the robustness and reliability of prognostic prediction. Relevant results provide a new technical path for precise oncology decision-making by integrating pathological images and genomics data, and also provide valuable research ideas for noise-aware multi-modal representation learning and evidence-level fusion mechanisms. In the future, this method can be further expanded to more cancer types, multi-center heterogeneous data and multi-omics integrated analysis, providing more reliable artificial intelligence technology support for personalized treatment decision-making and clinical prognosis assessment.
 
-![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](https://imic.nuist.edu.cn/__local/1/B0/27/498E1EA62A00729961B5C55D1DE_8C168656_A68EA.png)
+![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](/images/articles/source-1533/04.webp)
 
 Figure 4. Schematic diagram of the NADMSurv model framework proposed in this article
 
-![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](https://imic.nuist.edu.cn/__local/F/74/C5/679735944FCBC8D5C4B4A846D96_6C004417_24556.png)
+![Many recent achievements of IMIC laboratory have been accepted by top conferences in the field.](/images/articles/source-1533/05.webp)
 
 Figure 5. Schematic diagram of the evidence hypergraph fusion architecture proposed in this article
 

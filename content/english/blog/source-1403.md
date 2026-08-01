@@ -16,6 +16,8 @@ source_url: https://imic.nuist.edu.cn/info/1103/1403.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
+![Professor Ma Yuxia from Lanzhou University was specially invited to the school to give an academic report](/images/articles/source-1403/01.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1103/1403.htm).*

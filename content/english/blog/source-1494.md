@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1494.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Sun Hui](https://imic.nuist.edu.cn/__local/E/5D/85/BE68B01D1A53129B34EAFDEDA32_CF386D66_5E3857.jpg)
+![Sun Hui](/images/articles/source-1494/01.webp)
 
 Sun Hui, Ph.D., member of the Communist Party of China, is a postdoctoral fellow at the School of Artificial Intelligence (College of Future Technology), Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. He received a bachelor's degree in engineering from Sichuan Agricultural University in 2016, a master's degree in control theory and control engineering from Northeastern University in 2020, and a doctorate in mechanical engineering from City University of Hong Kong in 2024. From November 2024 to October 2025, he served as a postdoctoral researcher in the School of Mechanical Engineering. During his doctoral and postdoctoral years, he led and participated in a number of interdisciplinary research projects, focusing on generative deep learning, wearable sensing technology, micro-nanoscale image super-resolution and other fields. He has rich experience in experimental design and algorithm development. Current research directions include: wearable health sensing sensors, deep learning and data enhancement, micro-nano image super-resolution reconstruction, and large language models and multi-modal intelligent systems.
 

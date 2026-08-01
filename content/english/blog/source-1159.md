@@ -20,7 +20,7 @@ Research background
 
 With the innovation of imaging diagnosis technology, advances in surgical procedures, and the use of targeted and immunological drugs, the overall survival of patients with hepatocellular carcinoma (HCC) has greatly improved, but the 5-year survival is still low. One of the reasons is that patients already have microvascular invasion (MVI) when they are diagnosed. MVI refers to the invasion of microvessels by tumors. Under the microscope, nests of cancer cells are seen in the vascular lumen lined with endothelial cells. They are commonly found in small portal vein branches and hepatic vein branches in the adjacent liver tissue, as shown in Figure 1. The incidence rate of MVI is between 15% and 57.1%. Its occurrence indicates that the biological behavior of HCC is more aggressive. Therefore, it is an important factor affecting the prognosis of liver cancer and an important reference for the formulation of treatment plans. In recent years, a large number of studies have attempted to use CT, MRI and other imaging methods combined with clinical and laboratory indicators to predict MVI preoperatively, which can help guide treatment decisions for patients with liver cancer.
 
-![The paper jointly written by Zhou Zhenghao, a graduate student at the Smart Medical Research Institute, and Dr. Xia Yi from CUHK Hospital was accepted by Radiology, the top journal in the field of medical imaging.](https://imic.nuist.edu.cn/__local/4/C7/32/DCD1C060ACEC16569D5368CD464_CB7982A8_6D316.png)
+![The paper jointly written by Zhou Zhenghao, a graduate student at the Smart Medical Research Institute, and Dr. Xia Yi from CUHK Hospital was accepted by Radiology, the top journal in the field of medical imaging.](/images/articles/source-1159/01.webp)
 
 Figure 1 Manifestations of microvascular invasion process in hepatocellular carcinoma
 
@@ -50,7 +50,7 @@ l The modeling strategy adopted is to use ICC to evaluate feature stability, mRM
 
 l Establish and test radiomics models and hybrid models in cohorts 1-3, verify the prognostic stratification ability of the model in cohort 4, and explore the potential biological mechanisms of MVI in cohort 5.
 
-![The paper jointly written by Zhou Zhenghao, a graduate student at the Smart Medical Research Institute, and Dr. Xia Yi from CUHK Hospital was accepted by Radiology, the top journal in the field of medical imaging.](https://imic.nuist.edu.cn/__local/F/13/AA/2A911A561648855CB7357986404_713CF931_CBF64.jpg)
+![The paper jointly written by Zhou Zhenghao, a graduate student at the Smart Medical Research Institute, and Dr. Xia Yi from CUHK Hospital was accepted by Radiology, the top journal in the field of medical imaging.](/images/articles/source-1159/02.webp)
 
 Figure 2 Radiomics flow chart
 
@@ -526,13 +526,19 @@ Table 3 Diagnostic performance of hybrid and radiomics models
 
 In the prognostic cohort, the patient MVI prediction scores obtained by the radiomics model (optimal) and the mixed model can both risk stratify the early recurrence survival (recurrence within 2 years) and overall survival of liver cancer patients, as shown in Figure 3. Among them, (A, B) 1-year and 2-year recurrence-free survival and (C, D) 1-year, 3-year and 5-year overall survival were evaluated using radiomics model-derived scores and mixed model-derived scores. Low model scores are represented by red lines, high model scores are represented by yellow lines.
 
+![The paper jointly written by Zhou Zhenghao, a graduate student at the Smart Medical Research Institute, and Dr. Xia Yi from CUHK Hospital was accepted by Radiology, the top journal in the field of medical imaging.](/images/articles/source-1159/03.webp)
+
 Figure 3 Survival curve
 
 Figure 4 shows that in the TCIA cohort, based on MVI-related imaging features, we screened out related MVI differential genes. Enrichment analysis of these MVI-related differential genes revealed that sugar metabolism and other related pathways were enriched in the MVI high-risk group, especially the glycolysis and pentose phosphorylation pathways. In addition, the expression levels of immune cells in each group were explored according to the imaging characteristics related to MVI, and the correlation between immune infiltration and MVI was explored. It was found that among various immune cells, the level of immune infiltration in the MVI high-risk group was lower than that in the MVI low-risk group, especially CD8+ T cells.
 
+![The paper jointly written by Zhou Zhenghao, a graduate student at the Smart Medical Research Institute, and Dr. Xia Yi from CUHK Hospital was accepted by Radiology, the top journal in the field of medical imaging.](/images/articles/source-1159/04.webp)
+
 Figure 4 Screening of related genes
 
 It can be seen from Figure 5 that the hybrid model successfully predicted the MVI status of the two patients. (a-b) 57-year-old male patient with negative MVI. CT shows a 9.5-cm tumor without TTPVI (black and white arrow), peritumoral enhancement, and clear pseudocapsule (red arrow). Immunohistochemistry showed abundant CD8+ T cell infiltration in the tumor. The patient has no recurrence after surgery and has been alive for 82.3 months. (c-d) 35-year-old male patient with positive MVI and CT scan showing a 10.9-cm tumor. The tumor shows peritumoral enhancement (yellow arrow), TTPVI, and an ill-defined pseudocapsule. Immunohistochemistry showed that CD8+ T cells were sparse within the tumor. The patient relapsed 3.4 months after surgery and died 13.5 months later.
+
+![The paper jointly written by Zhou Zhenghao, a graduate student at the Smart Medical Research Institute, and Dr. Xia Yi from CUHK Hospital was accepted by Radiology, the top journal in the field of medical imaging.](/images/articles/source-1159/05.webp)
 
 Figure 5 CT images and CD8+ T cell immunohistochemistry of two HCC patients
 

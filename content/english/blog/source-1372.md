@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1372.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Luo Yuemei](https://imic.nuist.edu.cn/__local/1/C2/96/C21EE4A694C993846ECDD9F5769_C8B4B794_80384E.jpg)
+![Luo Yuemei](/images/articles/source-1372/01.webp)
 
 Luo Yuemei is a professor at the School of Artificial Intelligence of Nanjing University of Information Science & Technology, a Longshan Scholar, a national-level overseas young talent, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Intelligent Medical Research Institute. She graduated from the University of Electronic Science and Technology of China with a bachelor's degree, and then received a doctorate from Nanyang Technological University in Singapore and conducted postdoctoral research. She has published more than 40 papers in recent years. He has been engaged in the research of medical high-resolution optical coherence tomography technology for a long time. His main research direction is micron resolution optical coherence tomography (micro-OCT) and its application in the fields of gastrointestinal tract, cardiovascular, skin, and ophthalmology. The specific directions include the promotion and application of endoscopic micro-OCT in gastrointestinal and cardiovascular imaging, the application and promotion of micro-OCT in ophthalmology and skin imaging, non-destructive optical detection, and medical image recognition based on deep learning. Google Scholar homepage: https://scholar.google.com.sg/citations?user=piaBPSEAAAAJ&hl=en. Students who are interested in the research direction of this research group are welcome to join. Contact information: luoyuemei@nuist.edu.cn.
 

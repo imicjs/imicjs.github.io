@@ -26,6 +26,12 @@ Finally, Professor Xu Jun, the initiator of this teacher-student exchange meetin
 
 This teacher-student exchange on "Physiological Signals and Wearable Devices" is designed for lower-grade undergraduates, and the content is easy to understand. This activity strengthened the understanding and communication between lower-grade undergraduates and teachers from the “Physiological Signals and Wearable Devices” research team of the key laboratory, and further stimulated the interest of lower-grade undergraduates in learning. In particular, the theoretical explanations of Professor Hugo and key laboratory teachers in this activity are combined with students' hands-on practice and experience to help students better understand how the calculus, probability statistics, university physics, programming languages ​​and other course knowledge they usually learn in course studies can be flexibly applied to actual physiological signal processing and the research and development of wearable devices. This exchange activity not only allowed junior undergraduates to appreciate the charm of physiological signal acquisition and monitoring technology, but also inspired students' enthusiasm for advanced technological innovation.
 
+![The key laboratory held a teacher-student seminar on "Physiological Signals and Wearable Devices"](/images/articles/source-1373/01.webp)
+
+![The key laboratory held a teacher-student seminar on "Physiological Signals and Wearable Devices"](/images/articles/source-1373/02.webp)
+
+![The key laboratory held a teacher-student seminar on "Physiological Signals and Wearable Devices"](/images/articles/source-1373/03.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1032/1373.htm).*

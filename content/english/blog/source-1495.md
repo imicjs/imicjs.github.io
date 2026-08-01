@@ -22,7 +22,7 @@ The study is titled "Dual-channel cue-enhanced semi-supervised segmentation meth
 
 This technology has achieved a breakthrough in achieving high-precision retinal blood vessel segmentation using only 5% of the annotated data, significantly reducing the annotation cost and professional threshold of fundus image analysis, and effectively solving the core problem of scarcity of ophthalmic image annotation in clinical practice and reliance on the professional experience of doctors for annotation. Its excellent segmentation accuracy, blood vessel structure continuity and model robustness can provide stable and reliable technical support for quantitative analysis of retinal blood vessels. It is expected to significantly accelerate the clinical analysis process of OCTA images, assist ophthalmologists in completing early screening of eye diseases, longitudinal disease course monitoring and accurate prognosis assessment, and provide strong AI support for the precise diagnosis and treatment of eye diseases such as diabetic retinopathy, glaucoma and age-related macular degeneration.
 
-![The paper of Professor Luo Yuemei’s research group from IMIC Lab was published in the international authoritative journal Applied Soft Computing](https://imic.nuist.edu.cn/__local/3/72/27/D6FFBE097EAF080142592C2E694_CF61D12D_2014E1.png)
+![The paper of Professor Luo Yuemei’s research group from IMIC Lab was published in the international authoritative journal Applied Soft Computing](/images/articles/source-1495/01.webp)
 
 Figure. Schematic diagram of the model framework proposed in this article.
 

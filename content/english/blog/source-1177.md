@@ -22,27 +22,43 @@ On October 25, 2023, the paper "Single cell morphology and topological maps reve
 
 First, the researchers applied sc-MTOP to 637 cases of breast cancer (405 cases of hormone receptor positive and HER2 negative, 85 cases of hormone receptor positive and HER2 positive, 66 cases of hormone receptor negative and HER2 positive, and 81 cases of triple negative) in the Tumor Hospital of Fudan University for theorem analysis. The nuclear morphology and cell spatial distribution relationship characteristics of single cells were extracted from approximately 410 million cells, allowing for quantitative analysis of the breast tumor ecosystem.
 
+![Digital Pathology + Artificial Intelligence: 400 Million Cell Atlas Analyzes Breast Cancer Ecotypes](/images/articles/source-1177/01.webp)
+
 Figure 1: sc-MTOP analysis and its generated data set
 
 Subsequently, the study constructed a single cell atlas of 410 million cells, including 190 million tumor cells (47.1%), 66.85 million inflammatory cells (16.3%), 140 million stromal cells (34.6%), and 8.6 million normal breast cells (2.1%), and analyzed the phenotypic diversity of tumor cells, inflammatory cells, and stromal cells respectively.
 
+![Digital Pathology + Artificial Intelligence: 400 Million Cell Atlas Analyzes Breast Cancer Ecotypes](/images/articles/source-1177/02.webp)
+
 Figure 2: Single-cell atlas of inflammatory cells
+
+![Digital Pathology + Artificial Intelligence: 400 Million Cell Atlas Analyzes Breast Cancer Ecotypes](/images/articles/source-1177/03.webp)
 
 Figure 3: Single cell atlas of tumor cells and stromal cells
 
 Finally, this study analyzed microecological patterns representing local multicellular structures and recurrence-free survival through spatial distribution, revealing four breast cancer ecotypes with different molecular characteristics associated with patients' recurrence-free survival.
 
+![Digital Pathology + Artificial Intelligence: 400 Million Cell Atlas Analyzes Breast Cancer Ecotypes](/images/articles/source-1177/04.webp)
+
 Figure 4: Single-cell atlas of tumor cells and stromal cells
+
+![Digital Pathology + Artificial Intelligence: 400 Million Cell Atlas Analyzes Breast Cancer Ecotypes](/images/articles/source-1177/05.webp)
 
 Figure 5: Breast cancer ecotypes with different microbial patterns are associated with molecular characteristics and patient recurrence-free survival.
 
 Further analysis of multi-omics data revealed clinically significant ecosystem characteristics: Triple-negative breast cancer has a large number of local accumulation of inflammatory cells, which can indicate immune activation in the tumor microenvironment, which is beneficial to the effect of immunotherapy; hormone receptor-positive breast cancer has tumor cell nuclear morphological heterogeneity, which can indicate cell cycle pathway activation and the efficacy of CDK inhibitors.
 
+![Digital Pathology + Artificial Intelligence: 400 Million Cell Atlas Analyzes Breast Cancer Ecotypes](/images/articles/source-1177/06.webp)
+
 Figure 6: The local accumulation and abundance of inflammatory cells in triple-negative breast cancer can indicate the effect of immunotherapy
+
+![Digital Pathology + Artificial Intelligence: 400 Million Cell Atlas Analyzes Breast Cancer Ecotypes](/images/articles/source-1177/07.webp)
 
 Figure 7: Nuclear morphological heterogeneity in hormone receptor-positive breast cancer tumors can indicate cell cycle pathway activity and CDK inhibitor efficacy.
 
 Therefore, the results of this study show that the sc-MTOP algorithm can analyze the tumor ecosystem from the single cell level on digital pathology section images. Digital pathology combined with artificial intelligence has become a unique research direction and important transformation tool under the breast cancer accurate classification system of Fudan University Cancer Hospital.
+
+![Digital Pathology + Artificial Intelligence: 400 Million Cell Atlas Analyzes Breast Cancer Ecotypes](/images/articles/source-1177/08.webp)
 
 Figure 8: Research summary
 

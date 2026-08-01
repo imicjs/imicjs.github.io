@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1035/1433.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Sun Jiarui](https://imic.nuist.edu.cn/__local/C/E4/5D/AC271F048B5F153CB5A8B327460_BB464FDE_66B8C2.jpg)
+![Sun Jiarui](/images/articles/source-1433/01.webp)
 
 Sun Jiarui, Ph.D., is a lecturer at the School of Artificial Intelligence (College of Future Technology), Nanjing University of Information Science & Technology, and a core member of the Jiangsu University Key Laboratory of Intelligent Medical Image Computing and the Smart Medical Research Institute. He received a bachelor's degree in engineering from Zhengzhou University in 2019, and then obtained a doctorate in engineering from the School of Computer Science and Engineering of Southeast University in 2024. During his doctoral period, he participated in 2 projects including the National Natural Science Foundation of China, and participated in scientific research internships in scientific research institutions and enterprises such as Chinese Academy of Sciences-Shenzhen Institute of Advanced Technology and United Imaging Healthcare. His current main research directions are intelligent medical image analysis, multi-modal medical image processing, etc. In the past five years, he has published 6 papers as the first/co-author in top journals in the field such as IEEE TMI, MedIA and IEEE J-BHI, and has long served as a reviewer for important journals in the field.
 

@@ -57,7 +57,7 @@ Included in the "Longshan Scholar Support Plan" of Nanjing University of Science
 
 For details on basic requirements and salary benefits, please refer to the "Nanjing University of Information Science & Technology High-Level Talent Recruitment Notice (2023)" (scan the QR code below or visit the website below)
 
-![Smart Medical Research Institute long-term recruitment of outstanding masters, doctoral students and postdoctoral students](https://imic.nuist.edu.cn/__local/C/E1/6C/00C1E5F3680A30FF46183575357_D5EEF264_A27F.jpg)
+![Smart Medical Research Institute long-term recruitment of outstanding masters, doctoral students and postdoctoral students](/images/articles/source-1208/01.webp)
 
 https://rsc.nuist.edu.cn/2021/0419/c1097a175200/page.htm
 
@@ -81,9 +81,11 @@ The institute integrates the advantageous disciplines, high-end talents, and med
 
 Welcome to visit the official website of the institute to learn more about the Institute of Smart Medical Care: https://aim.nuist.edu.cn/, or scan the following QR code to enter the website and follow the institute’s WeChat official account:
 
-![Smart Medical Research Institute long-term recruitment of outstanding masters, doctoral students and postdoctoral students](https://imic.nuist.edu.cn/__local/F/76/B6/EDFC7EE4F9AD44EBBE97B4090DD_29B6D845_2F05F.jpg)
+![Smart Medical Research Institute long-term recruitment of outstanding masters, doctoral students and postdoctoral students](/images/articles/source-1208/02.webp)
 
-![Smart Medical Research Institute long-term recruitment of outstanding masters, doctoral students and postdoctoral students](https://imic.nuist.edu.cn/__local/6/4E/2F/A41BD0AF521D2DE5CACA26E7529_F4D563EA_266F8.jpg)
+![Smart Medical Research Institute long-term recruitment of outstanding masters, doctoral students and postdoctoral students](/images/articles/source-1208/03.webp)
+
+![Smart Medical Research Institute long-term recruitment of outstanding masters, doctoral students and postdoctoral students](/images/articles/source-1208/04.webp)
 
 Official website QR code WeChat official account QR code
 

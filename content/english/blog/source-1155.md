@@ -26,6 +26,12 @@ The Smart Medical Research Institute will continue to promote exchange activitie
 
 The School of Artificial Intelligence (College of Future Technology) establishes the central position of teaching and educating people, and puts the cultivation of undergraduates in the most fundamental position. Strive to cultivate the innovative spirit of undergraduates to better adapt to the needs of future social and professional development. The School of Artificial Intelligence actively implements the fundamental task of cultivating people with moral integrity and attaches great importance to talent cultivation. Based on the condensation and construction of the three major research institutes of the school, it has established three student societies: Yuanshi, Smart Meteorology, and Smart Medical. It is committed to cultivating students' innovative and entrepreneurial thinking and improving students' innovative and entrepreneurial abilities.
 
+![Smart Medical Association undergraduates and teachers held teacher-student discussions and exchanges](/images/articles/source-1155/01.webp)
+
+![Smart Medical Association undergraduates and teachers held teacher-student discussions and exchanges](/images/articles/source-1155/02.webp)
+
+![Smart Medical Association undergraduates and teachers held teacher-student discussions and exchanges](/images/articles/source-1155/03.webp)
+
 ---
 
 *Translated from the [original Chinese source](https://imic.nuist.edu.cn/info/1032/1155.htm).*

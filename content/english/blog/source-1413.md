@@ -16,7 +16,7 @@ source_url: https://imic.nuist.edu.cn/info/1148/1413.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-![Hugo Gamboa (Hugo ∙ Gamboa)](https://imic.nuist.edu.cn/__local/F/F3/D7/C6A80C64DCEF84B7BDACF4F390F_6CB46EAF_7A8EB.jpg)
+![Hugo Gamboa (Hugo ∙ Gamboa)](/images/articles/source-1413/01.webp)
 
 1. Basic information
 

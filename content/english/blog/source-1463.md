@@ -56,7 +56,7 @@ Professor Hamada Rizk from Osaka University, Japan, brought a topic titled "Smar
 
 A closed-door meeting of experts was held from 16:00 to 17:00. The participating scholars had in-depth exchanges on hot issues and development directions of medical AI, and reached a preliminary consensus on holding larger-scale international conferences in the future.
 
-![2025 International Medical Artificial Intelligence Conference and Artificial Intelligence Summer School were successfully held: jointly drawing a new blueprint for smart medical care](https://imic.nuist.edu.cn/__local/7/B3/F3/7E82400A7904B1A936D29FBC24A_A9E06741_1AA3EF.png)
+![2025 International Medical Artificial Intelligence Conference and Artificial Intelligence Summer School were successfully held: jointly drawing a new blueprint for smart medical care](/images/articles/source-1463/01.webp)
 
 Pictured: Speakers at the conference. First row: João Sàágua, President of the New University of Lisbon, Portugal; Academician Qin Ling of the Chinese University of Hong Kong; Professor Hugo Gamboa of the New University of Lisbon, Portugal; Professor Giovanni Saggio of the Sapienza University of Rome, Italy; Second row: Professor Ana Londral of the New University of Lisbon, Portugal; Professor Zhou Huiyu of the University of Leicester, the United Kingdom; Professor Hamada Rizk of Osaka University, Japan; Professor Kim Jeong-sil of Kyungpook National University, South Korea.
 

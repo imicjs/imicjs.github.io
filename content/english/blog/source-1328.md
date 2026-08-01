@@ -16,9 +16,9 @@ source_url: https://imic.nuist.edu.cn/info/1103/1328.htm
 translation_status: machine-translated-and-terminology-normalized
 ---
 
-Reporter: Cheng Wei, Young Researcher, Institute of Brain-inspired Intelligence Science and Technology, Fudan University
+![Young researcher Cheng Wei from the Institute of Brain-inspired Intelligence Science and Technology at Fudan University came to the school to give a report](/images/articles/source-1328/01.webp)
 
-![Young researcher Cheng Wei from the Institute of Brain-inspired Intelligence Science and Technology at Fudan University came to the school to give a report](https://rgzn.nuist.edu.cn/__local/C/EF/03/BC2D20D156F04090AC009DA657E_42DAA6BC_47F26.png)
+Reporter: Cheng Wei, Young Researcher, Institute of Brain-inspired Intelligence Science and Technology, Fudan University
 
 Report topic: Research on schizophrenia based on neuroimaging big data
 
